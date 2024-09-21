@@ -27,7 +27,7 @@ const Men: React.FC = () => {
                         />
                     </aside>
                     <section className={styles.content}>
-                        <h1 className={styles.title}>Men's Collection</h1>
+                        <h1 className={styles.title}>Men&apos;s Collection</h1>
                         <div className={styles.grid}>
                             {filteredProducts.map(product => (
                                 <ProductCard key={product.id} product={product} />
