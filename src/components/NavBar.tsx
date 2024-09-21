@@ -1,4 +1,3 @@
-// components/NavBar.tsx
 import Link from 'next/link';
 import styles from '../styles/NavBar.module.scss';
 import { useSelector } from 'react-redux';

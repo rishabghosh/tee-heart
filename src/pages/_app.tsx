@@ -1,4 +1,3 @@
-// pages/_app.tsx
 import type { AppProps } from 'next/app';
 import '../styles/global.scss';
 import { Provider } from 'react-redux';

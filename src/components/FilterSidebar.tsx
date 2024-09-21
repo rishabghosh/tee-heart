@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import styles from '../styles/FilterSidebar.module.scss';
+import styles from '@/styles/FilterSidebar.module.scss';
 import { Product } from '@/models/Product';
 
 interface FilterSidebarProps {

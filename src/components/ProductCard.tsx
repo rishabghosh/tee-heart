@@ -1,8 +1,8 @@
-// components/ProductCard.tsx
 import React from 'react';
 import styles from '../styles/ProductCard.module.scss';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../store/slices/cartSlice';
+import Image from 'next/image';
 
 
 interface Product {
@@ -25,7 +25,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
     return (
         <div className={styles.card}>
-            <img src={product.imageUrl} alt={product.name} className={styles.image} />
+            <Image src={product.imageUrl} alt={product.name} className={styles.image} width={500} height={500} />
             <h2 className={styles.name}>{product.name}</h2>
             <p className={styles.price}>{product.price}</p>
             <button className={styles.button} onClick={handleAddToCart}>
