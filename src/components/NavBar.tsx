@@ -14,10 +14,10 @@ const NavBar: React.FC = () => {
             </div>
             <ul className={styles.navLinks}>
                 <li>
-                    <Link href="/src/pages/men">Men</Link>
+                    <Link href="/men">Men</Link>
                 </li>
                 <li>
-                    <Link href="/src/pages/women">Women</Link>
+                    <Link href="/women">Women</Link>
                 </li>
                 <li>
                     <Link href="/kids">Kids</Link>
