@@ -1,52 +1,47 @@
-import React from 'react';
-import styles from '../styles/FilterSidebar.module.scss';
-
 interface FilterSidebarProps {
     categories: string[];
     themes: string[];
     sizes: string[];
-    priceRanges: string[];
+    onFilterChange: (filterType: 'categories' | 'themes' | 'sizes', value: string) => void;
 }
-
 const FilterSidebar: React.FC<FilterSidebarProps> = ({
                                                          categories,
                                                          themes,
                                                          sizes,
-                                                         priceRanges,
+                                                         onFilterChange
                                                      }) => {
+    const handleCheckboxChange = (filterType: 'categories' | 'themes', value: string) => {
+        onFilterChange(filterType, value);
+    };
+
+    const handleSizeClick = (size: string) => {
+        onFilterChange('sizes', size);
+    };
+
     return (
-        <div className={styles.sidebar}>
+        <div>
             <h3>Categories</h3>
-            <input type="text" placeholder="Search for Categories" className={styles.searchInput} />
-            <ul>
-                {categories.map((category, index) => (
-                    <li key={index}>
-                        <input type="checkbox" /> {category}
-                    </li>
-                ))}
-            </ul>
+            {categories.map(category => (
+                <div key={category}>
+                    <input type="checkbox" onChange={() => handleCheckboxChange('categories', category)} />
+                    <label>{category}</label>
+                </div>
+            ))}
 
             <h3>Themes</h3>
-            <input type="text" placeholder="Search for Themes" className={styles.searchInput} />
-            <ul>
-                {themes.map((theme, index) => (
-                    <li key={index}>
-                        <input type="checkbox" /> {theme}
-                    </li>
-                ))}
-            </ul>
+            {themes.map(theme => (
+                <div key={theme}>
+                    <input type="checkbox" onChange={() => handleCheckboxChange('themes', theme)} />
+                    <label>{theme}</label>
+                </div>
+            ))}
 
             <h3>Sizes</h3>
-            <input type="text" placeholder="Search for Size" className={styles.searchInput} />
-            <div className={styles.sizeButtons}>
-                {sizes.map((size, index) => (
-                    <button key={index} className={styles.sizeButton}>
-                        {size}
-                    </button>
-                ))}
-            </div>
+            {sizes.map(size => (
+                <button key={size} onClick={() => handleSizeClick(size)}>{size}</button>
+            ))}
         </div>
     );
 };
 
-export default FilterSidebar;
+export default FilterSidebar
