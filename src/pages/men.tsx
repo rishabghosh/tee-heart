@@ -6,15 +6,11 @@ import styles from '../styles/Category.module.scss';
 import mensProducts from '../data/menProducts.mock.json';
 import { Product } from "@/models/Product";
 
-// Use the imported JSON data directly
 const products: Product[] = mensProducts;
 
 const categories = Array.from(new Set(products.map(product => product.category)));
 const themes = Array.from(new Set(products.map(product => product.theme)));
 const sizes = Array.from(new Set(products.flatMap(product => product.sizes)));
-
-
-// Define your price ranges if needed
 
 const Men: React.FC = () => {
     const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
@@ -28,18 +24,21 @@ const Men: React.FC = () => {
         const applyFilters = () => {
             let filtered = products;
 
+            // Apply category filter
             if (activeFilters.categories.length > 0) {
                 filtered = filtered.filter(product =>
                     activeFilters.categories.includes(product.category)
                 );
             }
 
+            // Apply theme filter
             if (activeFilters.themes.length > 0) {
                 filtered = filtered.filter(product =>
                     activeFilters.themes.includes(product.theme)
                 );
             }
 
+            // Apply size filter
             if (activeFilters.sizes.length > 0) {
                 filtered = filtered.filter(product =>
                     product.sizes.some(size => activeFilters.sizes.includes(size))
@@ -52,15 +51,11 @@ const Men: React.FC = () => {
         applyFilters();
     }, [activeFilters]);
 
-    const handleFilterChange = (filterType: 'categories' | 'themes' | 'sizes', value: string) => {
-        setActiveFilters(prevFilters => {
-            const filterValues = prevFilters[filterType];
-            const newFilterValues = filterValues.includes(value)
-                ? filterValues.filter(v => v !== value)
-                : [...filterValues, value];
-
-            return { ...prevFilters, [filterType]: newFilterValues };
-        });
+    const handleFilterChange = (filterType: 'categories' | 'themes' | 'sizes', values: string[]) => {
+        setActiveFilters(prevFilters => ({
+            ...prevFilters,
+            [filterType]: values,
+        }));
     };
 
     return (

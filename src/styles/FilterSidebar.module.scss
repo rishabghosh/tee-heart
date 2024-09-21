@@ -1,51 +1,69 @@
-// styles/FilterSidebar.module.scss
 .sidebar {
   padding: 20px;
+  background-color: #f5f5f5; /* Light background to match the new look */
 
-  @media (max-width: 768px) {
-    padding: 10px; // Reduce padding for mobile
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333; /* Darker text color for better contrast */
   }
-}
 
-.sidebar h3 {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.searchInput {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.sidebar ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 20px;
-}
-
-.sidebar li {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.sizeButtons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-
-  @media (max-width: 768px) {
-    justify-content: center; // Center buttons on mobile
+  input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
-}
 
-.sizeButton {
-  padding: 10px 20px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: white;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+    input[type='checkbox'] {
+      margin-right: 10px;
+    }
+
+    label {
+      font-size: 16px;
+      color: #555; /* Softer text color */
+    }
+  }
+
+  .sizeButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    @media (max-width: 768px) {
+      justify-content: center; /* Center buttons on mobile */
+    }
+  }
+
+  .sizeButton {
+    padding: 8px 16px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: #e0e0e0; /* Slight hover effect */
+    }
+
+    &.selectedSizeButton {
+      background-color: #333;
+      color: white;
+    }
+  }
 }
