@@ -2,6 +2,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import ProductCard from '../components/ProductCard';
+import FilterSidebar from '../components/FilterSidebar';
 import styles from '../styles/Category.module.scss';
 
 interface Product {
@@ -23,11 +24,18 @@ const Men: React.FC = () => {
         <div>
             <NavBar />
             <main className={styles.main}>
-                <h1 className={styles.title}>Men's Collection</h1>
-                <div className={styles.grid}>
-                    {products.map(product => (
-                        <ProductCard key={product.id} product={product} />
-                    ))}
+                <div className={styles.layout}>
+                    <aside className={styles.sidebar}>
+                        <FilterSidebar />
+                    </aside>
+                    <section className={styles.content}>
+                        <h1 className={styles.title}>Men's Collection</h1>
+                        <div className={styles.grid}>
+                            {products.map(product => (
+                                <ProductCard key={product.id} product={product} />
+                            ))}
+                        </div>
+                    </section>
                 </div>
             </main>
         </div>
