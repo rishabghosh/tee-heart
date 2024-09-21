@@ -3,6 +3,8 @@ import React from 'react';
 import styles from '../styles/ProductCard.module.scss';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../store/slices/cartSlice';
+import Image from 'next/image';
+
 
 interface Product {
     id: number;

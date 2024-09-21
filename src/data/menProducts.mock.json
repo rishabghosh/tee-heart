@@ -3,131 +3,90 @@
     "id": 1,
     "name": "Classic T-Shirt",
     "price": "$25",
-    "imageUrl": "/images/mens/tshirt1.jpg",
+    "imageUrl": "/images/men/1667564471_9335742.webp",
     "category": "T-Shirts",
     "theme": "Breaking Bad",
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ]
+    "sizes": ["M", "L", "XL"]
   },
   {
     "id": 2,
     "name": "Polo Shirt",
     "price": "$35",
-    "imageUrl": "/images/mens/polo1.jpg",
+    "imageUrl": "/images/men/1682073487_7898156.webp",
     "category": "Polo Shirts",
     "theme": "Harry Potter",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ]
+    "sizes": ["S", "M", "L"]
   },
   {
     "id": 3,
     "name": "Hoodie",
     "price": "$45",
-    "imageUrl": "/images/mens/hoodie1.jpg",
+    "imageUrl": "/images/men/1711004269_1422653.webp",
     "category": "Hooded T-Shirts",
     "theme": "DC Comics",
-    "sizes": [
-      "L",
-      "XL",
-      "XXL"
-    ]
+    "sizes": ["L", "XL", "XXL"]
   },
   {
     "id": 4,
     "name": "Graphic T-Shirt",
     "price": "$20",
-    "imageUrl": "/images/mens/tshirt2.jpg",
+    "imageUrl": "/images/men/1711704269_9553145.webp",
     "category": "T-Shirts",
     "theme": "Kung Fu Panda",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
+    "sizes": ["S", "M", "L", "XL"]
   },
   {
     "id": 5,
     "name": "Sweatshirt",
     "price": "$40",
-    "imageUrl": "/images/mens/sweatshirt1.jpg",
+    "imageUrl": "/images/men/1713943206_9376927.webp",
     "category": "T-Shirts",
     "theme": "Garfield",
-    "sizes": [
-      "M",
-      "L"
-    ]
+    "sizes": ["M", "L"]
   },
   {
     "id": 6,
     "name": "Bomber Jacket",
     "price": "$60",
-    "imageUrl": "/images/mens/jacket1.jpg",
+    "imageUrl": "/images/men/1719684359_9457038.webp",
     "category": "Jackets",
     "theme": "Looney Tunes",
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ]
+    "sizes": ["M", "L", "XL"]
   },
   {
     "id": 7,
     "name": "Denim Jacket",
     "price": "$55",
-    "imageUrl": "/images/mens/jacket2.jpg",
+    "imageUrl": "/images/men/1721029861_2727869.webp",
     "category": "Jackets",
     "theme": "Donald Duck",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ]
+    "sizes": ["S", "M", "L"]
   },
   {
     "id": 8,
     "name": "Casual T-Shirt",
     "price": "$22",
-    "imageUrl": "/images/mens/tshirt3.jpg",
+    "imageUrl": "/images/men/1721108533_7016753.webp",
     "category": "T-Shirts",
     "theme": "Brooklyn Nine-Nine",
-    "sizes": [
-      "M",
-      "XL"
-    ]
+    "sizes": ["M", "XL"]
   },
   {
     "id": 9,
     "name": "Sports T-Shirt",
     "price": "$30",
-    "imageUrl": "/images/mens/tshirt4.jpg",
+    "imageUrl": "/images/men/1726310010_8517196.webp",
     "category": "T-Shirts",
     "theme": "Harry Potter",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XXL"
-    ]
+    "sizes": ["S", "M", "L", "XXL"]
   },
   {
     "id": 10,
     "name": "Relaxed Fit T-Shirt",
     "price": "$28",
-    "imageUrl": "/images/mens/tshirt5.jpg",
+    "imageUrl": "/images/men/1721029861_2727869.webp",
     "category": "Men Relaxed Fit T-Shirts",
     "theme": "Breaking Bad",
-    "sizes": [
-      "XXS",
-      "XS",
-      "S",
-      "M"
-    ]
+    "sizes": ["XXS", "XS", "S", "M"]
   }
 ]
