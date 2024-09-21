@@ -75,15 +75,17 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
 
                 <div className={styles.sizeSelector}>
                     <h4>Select Size:</h4>
-                    {product.sizes.map((size) => (
-                        <button
-                            key={size}
-                            className={`${styles.sizeButton} ${selectedSize === size ? styles.selectedSize : ''}`}
-                            onClick={() => handleSizeClick(size)}
-                        >
-                            {size}
-                        </button>
-                    ))}
+                    <div className={styles.sizeButtons}>
+                        {product.sizes.map((size) => (
+                            <button
+                                key={size}
+                                className={`${styles.sizeButton} ${selectedSize === size ? styles.selectedSize : ''}`}
+                                onClick={() => handleSizeClick(size)}
+                            >
+                                {size}
+                            </button>
+                        ))}
+                    </div>
                 </div>
 
                 <div className={styles.quantitySection}>

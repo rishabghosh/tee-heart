@@ -19,7 +19,6 @@ const CustomerCategory: React.FC<CustomerCategoryProps> = ({ title, products }) 
 
     return (
         <div>
-            <NavBar />
             <main className={styles.main}>
                 <div className={styles.layout}>
                     <aside className={styles.sidebar}>
