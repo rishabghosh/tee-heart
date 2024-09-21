@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import styles from '../styles/FilterSidebar.module.scss';
 import { Product } from '@/models/Product';
 
@@ -8,6 +9,8 @@ interface FilterSidebarProps {
 }
 
 const FilterSidebar: React.FC<FilterSidebarProps> = ({ products, onFilter }) => {
+    const router = useRouter(); // Get the Next.js router instance
+
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
     const [selectedThemes, setSelectedThemes] = useState<string[]>([]);
     const [selectedSizes, setSelectedSizes] = useState<string[]>([]);
@@ -17,47 +20,91 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({ products, onFilter }) => 
     const themes = Array.from(new Set(products.map(product => product.theme)));
     const sizes = Array.from(new Set(products.flatMap(product => product.sizes)));
 
+    // Sync state with URL query parameters on initial load
     useEffect(() => {
-        const applyFilters = () => {
-            let filtered = products;
+        const { categories, themes, sizes } = router.query;
 
-            if (selectedCategories.length > 0) {
-                filtered = filtered.filter(product =>
-                    selectedCategories.includes(product.category)
-                );
-            }
+        if (categories) setSelectedCategories((categories as string).split(','));
+        if (themes) setSelectedThemes((themes as string).split(','));
+        if (sizes) setSelectedSizes((sizes as string).split(','));
+    }, [router.query]);
 
-            if (selectedThemes.length > 0) {
-                filtered = filtered.filter(product =>
-                    selectedThemes.includes(product.theme)
-                );
-            }
+    // Throttle state updates to avoid excessive URL updates
+    useEffect(() => {
+        const timeoutId = setTimeout(() => {
+            const applyFilters = () => {
+                let filtered = products;
 
-            if (selectedSizes.length > 0) {
-                filtered = filtered.filter(product =>
-                    product.sizes.some(size => selectedSizes.includes(size))
-                );
-            }
+                if (selectedCategories.length > 0) {
+                    filtered = filtered.filter(product =>
+                        selectedCategories.includes(product.category)
+                    );
+                }
 
-            onFilter(filtered);
-        };
+                if (selectedThemes.length > 0) {
+                    filtered = filtered.filter(product =>
+                        selectedThemes.includes(product.theme)
+                    );
+                }
 
-        applyFilters();
-    }, [selectedCategories, selectedThemes, selectedSizes, products, onFilter]);
+                if (selectedSizes.length > 0) {
+                    filtered = filtered.filter(product =>
+                        product.sizes.some(size => selectedSizes.includes(size))
+                    );
+                }
+
+                onFilter(filtered);
+
+                // Construct the query string based on selected filters
+                const query: Record<string, string> = {};
+
+                if (selectedCategories.length > 0) {
+                    query.categories = selectedCategories.join(',');
+                }
+
+                if (selectedThemes.length > 0) {
+                    query.themes = selectedThemes.join(',');
+                }
+
+                if (selectedSizes.length > 0) {
+                    query.sizes = selectedSizes.join(',');
+                }
+
+                // Only update the URL if query parameters are actually different
+                const currentQuery = router.query;
+                if (
+                    query.categories !== currentQuery.categories ||
+                    query.themes !== currentQuery.themes ||
+                    query.sizes !== currentQuery.sizes
+                ) {
+                    router.replace(
+                        {
+                            pathname: router.pathname,
+                            query: { ...query },
+                        },
+                        undefined,
+                        { shallow: true }
+                    );
+                }
+            };
+
+            applyFilters();
+        }, 300); // Throttle the URL update to every 300ms
+
+        return () => clearTimeout(timeoutId); // Clean up the timeout on unmount or when dependencies change
+    }, [selectedCategories, selectedThemes, selectedSizes, products, onFilter, router]);
 
     const handleCheckboxChange = (filterType: 'categories' | 'themes', value: string) => {
-        let updatedValues: string[];
-
         if (filterType === 'categories') {
-            updatedValues = selectedCategories.includes(value)
+            const updatedCategories = selectedCategories.includes(value)
                 ? selectedCategories.filter(item => item !== value)
                 : [...selectedCategories, value];
-            setSelectedCategories(updatedValues);
+            setSelectedCategories(updatedCategories);
         } else if (filterType === 'themes') {
-            updatedValues = selectedThemes.includes(value)
+            const updatedThemes = selectedThemes.includes(value)
                 ? selectedThemes.filter(item => item !== value)
                 : [...selectedThemes, value];
-            setSelectedThemes(updatedValues);
+            setSelectedThemes(updatedThemes);
         }
     };
 
@@ -65,7 +112,6 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({ products, onFilter }) => 
         const updatedSizes = selectedSizes.includes(size)
             ? selectedSizes.filter(s => s !== size)
             : [...selectedSizes, size];
-
         setSelectedSizes(updatedSizes);
     };
 
