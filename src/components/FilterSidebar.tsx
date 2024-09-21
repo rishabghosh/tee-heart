@@ -1,22 +1,49 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from '../styles/FilterSidebar.module.scss';
+import { Product } from '@/models/Product';
 
 interface FilterSidebarProps {
-    categories: string[];
-    themes: string[];
-    sizes: string[];
-    onFilterChange: (filterType: 'categories' | 'themes' | 'sizes', values: string[]) => void;
+    products: Product[];
+    onFilter: (filteredProducts: Product[]) => void;
 }
 
-const FilterSidebar: React.FC<FilterSidebarProps> = ({
-                                                         categories,
-                                                         themes,
-                                                         sizes,
-                                                         onFilterChange,
-                                                     }) => {
+const FilterSidebar: React.FC<FilterSidebarProps> = ({ products, onFilter }) => {
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
     const [selectedThemes, setSelectedThemes] = useState<string[]>([]);
     const [selectedSizes, setSelectedSizes] = useState<string[]>([]);
+
+    // Get distinct categories, themes, and sizes from the products
+    const categories = Array.from(new Set(products.map(product => product.category)));
+    const themes = Array.from(new Set(products.map(product => product.theme)));
+    const sizes = Array.from(new Set(products.flatMap(product => product.sizes)));
+
+    useEffect(() => {
+        const applyFilters = () => {
+            let filtered = products;
+
+            if (selectedCategories.length > 0) {
+                filtered = filtered.filter(product =>
+                    selectedCategories.includes(product.category)
+                );
+            }
+
+            if (selectedThemes.length > 0) {
+                filtered = filtered.filter(product =>
+                    selectedThemes.includes(product.theme)
+                );
+            }
+
+            if (selectedSizes.length > 0) {
+                filtered = filtered.filter(product =>
+                    product.sizes.some(size => selectedSizes.includes(size))
+                );
+            }
+
+            onFilter(filtered);
+        };
+
+        applyFilters();
+    }, [selectedCategories, selectedThemes, selectedSizes, products, onFilter]);
 
     const handleCheckboxChange = (filterType: 'categories' | 'themes', value: string) => {
         let updatedValues: string[];
@@ -26,13 +53,11 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
                 ? selectedCategories.filter(item => item !== value)
                 : [...selectedCategories, value];
             setSelectedCategories(updatedValues);
-            onFilterChange('categories', updatedValues);
         } else if (filterType === 'themes') {
             updatedValues = selectedThemes.includes(value)
                 ? selectedThemes.filter(item => item !== value)
                 : [...selectedThemes, value];
             setSelectedThemes(updatedValues);
-            onFilterChange('themes', updatedValues);
         }
     };
 
@@ -42,7 +67,6 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
             : [...selectedSizes, size];
 
         setSelectedSizes(updatedSizes);
-        onFilterChange('sizes', updatedSizes);
     };
 
     return (

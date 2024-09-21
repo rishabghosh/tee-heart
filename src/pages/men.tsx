@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import NavBar from '../components/NavBar';
 import ProductCard from '../components/ProductCard';
 import FilterSidebar from '../components/FilterSidebar';
@@ -8,54 +8,11 @@ import { Product } from "@/models/Product";
 
 const products: Product[] = mensProducts;
 
-const categories = Array.from(new Set(products.map(product => product.category)));
-const themes = Array.from(new Set(products.map(product => product.theme)));
-const sizes = Array.from(new Set(products.flatMap(product => product.sizes)));
-
 const Men: React.FC = () => {
     const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
-    const [activeFilters, setActiveFilters] = useState({
-        categories: [] as string[],
-        themes: [] as string[],
-        sizes: [] as string[],
-    });
 
-    useEffect(() => {
-        const applyFilters = () => {
-            let filtered = products;
-
-            // Apply category filter
-            if (activeFilters.categories.length > 0) {
-                filtered = filtered.filter(product =>
-                    activeFilters.categories.includes(product.category)
-                );
-            }
-
-            // Apply theme filter
-            if (activeFilters.themes.length > 0) {
-                filtered = filtered.filter(product =>
-                    activeFilters.themes.includes(product.theme)
-                );
-            }
-
-            // Apply size filter
-            if (activeFilters.sizes.length > 0) {
-                filtered = filtered.filter(product =>
-                    product.sizes.some(size => activeFilters.sizes.includes(size))
-                );
-            }
-
-            setFilteredProducts(filtered);
-        };
-
-        applyFilters();
-    }, [activeFilters]);
-
-    const handleFilterChange = (filterType: 'categories' | 'themes' | 'sizes', values: string[]) => {
-        setActiveFilters(prevFilters => ({
-            ...prevFilters,
-            [filterType]: values,
-        }));
+    const handleFilteredProducts = (filtered: Product[]) => {
+        setFilteredProducts(filtered);
     };
 
     return (
@@ -65,10 +22,8 @@ const Men: React.FC = () => {
                 <div className={styles.layout}>
                     <aside className={styles.sidebar}>
                         <FilterSidebar
-                            categories={categories}
-                            themes={themes}
-                            sizes={sizes}
-                            onFilterChange={handleFilterChange}
+                            products={products}
+                            onFilter={handleFilteredProducts}
                         />
                     </aside>
                     <section className={styles.content}>
