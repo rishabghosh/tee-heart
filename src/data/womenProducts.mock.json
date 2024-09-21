@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "name": "Floral Dress",
+    "price": "$30",
+    "imageUrl": "/images/womens/dress1.jpg",
+    "category": "Skater Dresses",
+    "theme": "Marvel",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Crop Top",
+    "price": "$20",
+    "imageUrl": "/images/womens/croptop1.jpg",
+    "category": "Cropped Shirts",
+    "theme": "Ed Sheeran",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Denim Jacket",
+    "price": "$50",
+    "imageUrl": "/images/womens/jacket1.jpg",
+    "category": "Jackets",
+    "theme": "Marvel",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Maxi Dress",
+    "price": "$60",
+    "imageUrl": "/images/womens/dress2.jpg",
+    "category": "Polo Dresses",
+    "theme": "Ed Sheeran",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tunic Top",
+    "price": "$25",
+    "imageUrl": "/images/womens/tunic1.jpg",
+    "category": "Boyfriend T-Shirts",
+    "theme": "Marvel",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "High-Waist Jeans",
+    "price": "$45",
+    "imageUrl": "/images/womens/jeans1.jpg",
+    "category": "Full Length Co-ord Sets",
+    "theme": "Ed Sheeran",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sweater Dress",
+    "price": "$40",
+    "imageUrl": "/images/womens/dress3.jpg",
+    "category": "Long Slit Shirt Dresses",
+    "theme": "Marvel",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Peplum Top",
+    "price": "$22",
+    "imageUrl": "/images/womens/top1.jpg",
+    "category": "Cropped Tank Tops",
+    "theme": "Marvel",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Mini Dress",
+    "price": "$35",
+    "imageUrl": "/images/womens/dress4.jpg",
+    "category": "Skater Dresses",
+    "theme": "Ed Sheeran",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Leather Jacket",
+    "price": "$80",
+    "imageUrl": "/images/womens/jacket2.jpg",
+    "category": "Jackets",
+    "theme": "Marvel",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  }
+]
