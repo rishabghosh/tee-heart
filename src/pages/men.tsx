@@ -19,6 +19,35 @@ const products: Product[] = [
     // Add more products as needed
 ];
 
+const categories = [
+    'Hooded T-Shirts',
+    'Men Relaxed Fit T-Shirts',
+    'Oversized T-Shirts',
+    'Supima T-Shirts',
+    'T-Shirts',
+];
+
+const themes = [
+    'Breaking Bad',
+    'Brooklyn Nine-Nine',
+    'DC Comics',
+    'Donald Duck',
+    'Garfield',
+    'Harry Potter',
+    'Kung Fu Panda',
+    'Looney Tunes',
+];
+
+const sizes = [
+    'XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL',
+];
+
+const priceRanges = [
+    'Rs. 599 to Rs. 898',
+    'Rs. 899 to Rs. 1198',
+    'Rs. 1199 to Rs. 1499',
+];
+
 const Men: React.FC = () => {
     return (
         <div>
@@ -26,7 +55,12 @@ const Men: React.FC = () => {
             <main className={styles.main}>
                 <div className={styles.layout}>
                     <aside className={styles.sidebar}>
-                        <FilterSidebar />
+                        <FilterSidebar
+                            categories={categories}
+                            themes={themes}
+                            sizes={sizes}
+                            priceRanges={priceRanges}
+                        />
                     </aside>
                     <section className={styles.content}>
                         <h1 className={styles.title}>Men's Collection</h1>

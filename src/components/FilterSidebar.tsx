@@ -2,36 +2,47 @@
 import React from 'react';
 import styles from '../styles/FilterSidebar.module.scss';
 
-const FilterSidebar: React.FC = () => {
+interface FilterSidebarProps {
+    categories: string[];
+    themes: string[];
+    sizes: string[];
+    priceRanges: string[];
+}
+
+const FilterSidebar: React.FC<FilterSidebarProps> = ({
+                                                         categories,
+                                                         themes,
+                                                         sizes,
+                                                         priceRanges,
+                                                     }) => {
     return (
         <div className={styles.sidebar}>
             <h3>Categories</h3>
             <ul>
-                <li><input type="checkbox" /> T-Shirts</li>
-                <li><input type="checkbox" /> Polo Shirts</li>
-                <li><input type="checkbox" /> Hoodies</li>
+                {categories.map((category, index) => (
+                    <li key={index}><input type="checkbox" /> {category}</li>
+                ))}
             </ul>
 
-            <h3>Theme</h3>
+            <h3>Themes</h3>
             <ul>
-                <li><input type="checkbox" /> Casual</li>
-                <li><input type="checkbox" /> Sports</li>
-                <li><input type="checkbox" /> Formal</li>
+                {themes.map((theme, index) => (
+                    <li key={index}><input type="checkbox" /> {theme}</li>
+                ))}
             </ul>
 
             <h3>Sizes</h3>
             <ul>
-                <li><input type="checkbox" /> S</li>
-                <li><input type="checkbox" /> M</li>
-                <li><input type="checkbox" /> L</li>
-                <li><input type="checkbox" /> XL</li>
+                {sizes.map((size, index) => (
+                    <li key={index}><input type="checkbox" /> {size}</li>
+                ))}
             </ul>
 
             <h3>Price Range</h3>
             <ul>
-                <li><input type="checkbox" /> $10 - $25</li>
-                <li><input type="checkbox" /> $26 - $50</li>
-                <li><input type="checkbox" /> $51 - $100</li>
+                {priceRanges.map((priceRange, index) => (
+                    <li key={index}><input type="checkbox" /> {priceRange}</li>
+                ))}
             </ul>
         </div>
     );
