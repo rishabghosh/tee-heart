@@ -1,3 +1,4 @@
+// styles/NavBar.module.scss
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -5,29 +6,36 @@
   padding: 1rem 2rem;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap; // Allow items to wrap in smaller screens
 
-  .logo {
-    a {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #333333;
-    }
+  @media (max-width: 768px) {
+    padding: 1rem; // Adjust padding for mobile
+    justify-content: center; // Center items
   }
+}
 
-  .navLinks {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+}
 
-    li {
-      a {
-        color: #555555;
-        transition: color 0.3s ease;
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
 
-        &:hover {
-          color: #000000;
-        }
-      }
-    }
+  @media (max-width: 768px) {
+    display: block; // Stack links vertically on small screens
+    margin-top: 1rem;
+  }
+}
+
+.navLinks li a {
+  color: #555555;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #000000;
   }
 }
