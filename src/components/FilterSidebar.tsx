@@ -1,4 +1,3 @@
-// components/FilterSidebar.tsx
 import React from 'react';
 import styles from '../styles/FilterSidebar.module.scss';
 
@@ -18,32 +17,34 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
     return (
         <div className={styles.sidebar}>
             <h3>Categories</h3>
+            <input type="text" placeholder="Search for Categories" className={styles.searchInput} />
             <ul>
                 {categories.map((category, index) => (
-                    <li key={index}><input type="checkbox" /> {category}</li>
+                    <li key={index}>
+                        <input type="checkbox" /> {category}
+                    </li>
                 ))}
             </ul>
 
             <h3>Themes</h3>
+            <input type="text" placeholder="Search for Themes" className={styles.searchInput} />
             <ul>
                 {themes.map((theme, index) => (
-                    <li key={index}><input type="checkbox" /> {theme}</li>
+                    <li key={index}>
+                        <input type="checkbox" /> {theme}
+                    </li>
                 ))}
             </ul>
 
             <h3>Sizes</h3>
-            <ul>
+            <input type="text" placeholder="Search for Size" className={styles.searchInput} />
+            <div className={styles.sizeButtons}>
                 {sizes.map((size, index) => (
-                    <li key={index}><input type="checkbox" /> {size}</li>
+                    <button key={index} className={styles.sizeButton}>
+                        {size}
+                    </button>
                 ))}
-            </ul>
-
-            <h3>Price Range</h3>
-            <ul>
-                {priceRanges.map((priceRange, index) => (
-                    <li key={index}><input type="checkbox" /> {priceRange}</li>
-                ))}
-            </ul>
+            </div>
         </div>
     );
 };
