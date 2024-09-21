@@ -89,7 +89,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({ products, onFilter }) => 
             };
 
             applyFilters();
-        }, 300); // Throttle the URL update to every 300ms
+        }, 1); // Throttle the URL update to every 100ms
 
         return () => clearTimeout(timeoutId); // Clean up the timeout on unmount or when dependencies change
     }, [selectedCategories, selectedThemes, selectedSizes, products, onFilter, router]);

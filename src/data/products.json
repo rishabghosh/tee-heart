@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Classic T-Shirt",
+    "price": "$25",
+    "imageUrl": "/images/men/1667564471_9335742.webp",
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Breaking Bad",
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "id": 2,
+    "name": "Polo Shirt",
+    "price": "$35",
+    "imageUrl": "/images/men/1682073487_7898156.webp",
+    "category": "Polo Shirts",
+    "customer":  "men",
+    "theme": "Harry Potter",
+    "sizes": ["S", "M", "L"]
+  },
+  {
+    "id": 3,
+    "name": "Hoodie",
+    "price": "$45",
+    "imageUrl": "/images/men/1711004269_1422653.webp",
+    "category": "Hooded T-Shirts",
+    "customer":  "men",
+    "theme": "DC Comics",
+    "sizes": ["L", "XL", "XXL"]
+  },
+  {
+    "id": 4,
+    "name": "Graphic T-Shirt",
+    "price": "$20",
+    "imageUrl": "/images/men/1711704269_9553145.webp",
+    "category": "T-Shirts",
+    "customer":  "men",
+    "theme": "Kung Fu Panda",
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": 5,
+    "name": "Sweatshirt",
+    "price": "$40",
+    "imageUrl": "/images/men/1713943206_9376927.webp",
+    "category": "T-Shirts",
+    "customer":  "men",
+    "theme": "Garfield",
+    "sizes": ["M", "L"]
+  },
+  {
+    "id": 6,
+    "name": "Bomber Jacket",
+    "price": "$60",
+    "imageUrl": "/images/men/1719684359_9457038.webp",
+    "category": "Jackets",
+    "customer":  "men",
+    "theme": "Looney Tunes",
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "id": 7,
+    "name": "Denim Jacket",
+    "price": "$55",
+    "imageUrl": "/images/men/1721029861_2727869.webp",
+    "category": "Jackets",
+    "customer":  "men",
+    "theme": "Donald Duck",
+    "sizes": ["S", "M", "L"]
+  },
+  {
+    "id": 8,
+    "name": "Casual T-Shirt",
+    "price": "$22",
+    "imageUrl": "/images/men/1721108533_7016753.webp",
+    "category": "T-Shirts",
+    "customer":  "men",
+    "theme": "Brooklyn Nine-Nine",
+    "sizes": ["M", "XL"]
+  },
+  {
+    "id": 9,
+    "name": "Sports T-Shirt",
+    "price": "$30",
+    "imageUrl": "/images/men/1726310010_8517196.webp",
+    "category": "T-Shirts",
+    "customer":  "men",
+    "theme": "Harry Potter",
+    "sizes": ["S", "M", "L", "XXL"]
+  },
+  {
+    "id": 10,
+    "name": "Relaxed Fit T-Shirt",
+    "price": "$28",
+    "imageUrl": "/images/men/1721029861_2727869.webp",
+    "category": "Men Relaxed Fit T-Shirts",
+    "customer":  "men",
+    "theme": "Breaking Bad",
+    "sizes": ["XXS", "XS", "S", "M"]
+  }
+]
