@@ -1,42 +1,42 @@
 .sidebar {
   padding: 20px;
-}
 
-.sidebar h3 {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+  h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
-.searchInput {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
+  .searchInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
 
-.sidebar ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 20px;
-}
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
 
-.sidebar li {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
+    li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+  }
 
-.sizeButtons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
+  .sizeButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 
-.sizeButton {
-  padding: 10px 20px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: white;
+    .sizeButton {
+      padding: 10px 20px;
+      border: 1px solid #000;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: white;
+    }
+  }
 }

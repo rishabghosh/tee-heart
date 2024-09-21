@@ -1,4 +1,3 @@
-/* styles/NavBar.module.scss */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -6,25 +5,29 @@
   padding: 1rem 2rem;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.logo a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #333333;
-}
+  .logo {
+    a {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333333;
+    }
+  }
 
-.navLinks {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
 
-.navLinks li a {
-  color: #555555;
-  transition: color 0.3s ease;
+    li {
+      a {
+        color: #555555;
+        transition: color 0.3s ease;
 
-  &:hover {
-    color: #000000;
+        &:hover {
+          color: #000000;
+        }
+      }
+    }
   }
 }
