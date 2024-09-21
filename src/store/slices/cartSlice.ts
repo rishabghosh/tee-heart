@@ -1,12 +1,6 @@
 // store/slices/cartSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-
-interface Product {
-    id: number;
-    name: string;
-    price: string;
-    imageUrl: string;
-}
+import {Product} from "@/models/Product";
 
 interface CartState {
     items: Product[];

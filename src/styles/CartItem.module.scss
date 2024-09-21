@@ -1,0 +1,38 @@
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+
+  .itemImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .itemDetails {
+    flex: 1;
+    margin-left: 1rem;
+
+    h4 {
+      margin: 0 0 0.5rem;
+    }
+
+    p {
+      margin: 0.2rem 0;
+    }
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      margin-bottom: 0.5rem;
+      background-color: #f5f5f5;
+      border: none;
+      padding: 0.5rem;
+      cursor: pointer;
+    }
+  }
+}
+

@@ -1,0 +1,20 @@
+.summary {
+  padding: 1rem;
+  border: 1px solid #ddd;
+
+  .detail, .totalAmount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+
+  .placeOrderBtn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+}
+
