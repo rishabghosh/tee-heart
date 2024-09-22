@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../store/store';
 
 const NavBar: React.FC = () => {
-    const cartItems = useSelector((state: RootState) => state.cart.items);
+    const cartItems = useSelector((state: RootState) => state.cart.cart);
 
     return (
         <nav className={styles.navbar}>
@@ -22,7 +22,7 @@ const NavBar: React.FC = () => {
                     <Link href="/kids">Kids</Link>
                 </li>
                 <li>
-                    <Link href="/cart">Cart ({cartItems.length})</Link>
+                    <Link href="/cart">Cart ({cartItems.getItems().length})</Link>
                 </li>
             </ul>
         </nav>

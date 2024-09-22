@@ -1,39 +1,35 @@
 import CartItem from "@/components/CartItem";
 import CartSummary from '../components/CartSummary';
 import styles from '../styles/Cart.module.scss';
-import {useDispatch, useSelector} from "react-redux";
-import {removeFromCart, changeItemQuantity} from "@/store/slices/cartSlice";
-import {RootState} from "@/store/store";
+import { useDispatch, useSelector } from "react-redux";
+import { removeFromCart, changeItemQuantity } from "@/store/slices/cartSlice";
+import { RootState } from "@/store/store";
 
 const Cart: React.FC = () => {
-    const cartItems = useSelector((state: RootState) => state.cart.items);
+    const cart = useSelector((state: RootState) => state.cart.cart);
     const dispatch = useDispatch();
 
-    // Calculate the total price dynamically based on item quantities
-    const cartTotal = cartItems.reduce((total, item) => total + item.price * item.qty, 0);
-    const gst = cartTotal * 0.12; //  12% GST
+    // Get total price and GST
+    const cartTotal = cart.getTotalPrice();
+    const gst = cartTotal * 0.12;
     const totalAmount = cartTotal + gst;
 
-    const handleRemoveItem = (id: number) => {
-        dispatch(removeFromCart(id));
+    const handleRemoveItem = (id: number, size: string) => {
+        dispatch(removeFromCart({ id, size }));
     };
 
-    const handleQuantityChange = (id: number, qty: number) => {
+    const handleQuantityChange = (id: number, size: string, qty: number) => {
         if (qty > 0) {
-            dispatch(changeItemQuantity({ id, qty }));
+            dispatch(changeItemQuantity({ id, size, qty }));
         }
-    };
-
-    const handleMoveToWishlist = (index: number) => {
-        // Move to wishlist logic
     };
 
     return (
         <div className={styles.cart}>
             <div className={styles.cartItems}>
-                {cartItems.map((item, index) => (
+                {cart.getItems().map((item, index) => (
                     <CartItem
-                        key={item.id}
+                        key={`${item.id}-${item.size}`}
                         id={item.id}
                         name={item.name}
                         price={item.price}
@@ -41,10 +37,9 @@ const Cart: React.FC = () => {
                         qty={item.qty}
                         imageUrl={item.imageUrl}
                         description={item.description}
-                        onIncreaseQty={() => handleQuantityChange(item.id, item.qty + 1)}
-                        onDecreaseQty={() => handleQuantityChange(item.id, item.qty - 1)}
-                        onRemove={() => handleRemoveItem(item.id)}
-                        onMoveToWishlist={() => handleMoveToWishlist(index)}
+                        onIncreaseQty={() => handleQuantityChange(item.id, item.size, item.qty + 1)}
+                        onDecreaseQty={() => handleQuantityChange(item.id, item.size, item.qty - 1)}
+                        onRemove={() => handleRemoveItem(item.id, item.size)}
                     />
                 ))}
             </div>

@@ -29,6 +29,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
         }
     };
 
+
     const handleSizeClick = (size: string) => {
         setSelectedSize(size);
     };
