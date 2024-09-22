@@ -12,7 +12,11 @@ const Cart: React.FC = () => {
     const totalAmount = 1499;
 
 
-    const cartItems = useSelector((state: RootState) => state.cart.items);
+
+
+    // const cartItems = useSelector((state: RootState) => state.cart.items);
+
+    const cartItems = [1]
 
     const dispatch = useDispatch();
 
@@ -24,17 +28,18 @@ const Cart: React.FC = () => {
         // Move to wishlist logic
     };
 
+
     return (
         <div className={styles.cart}>
             <div className={styles.cartItems}>
                 {cartItems.map((item, index) => (
                     <CartItem
-                        key={index}
-                        name={item.name}
+                        key={1}
+                        name={'spiderman tshirt'}
                         price={100}
                         size={'M'}
                         qty={2}
-                        imageUrl={item.imageUrl}
+                        imageUrl={"/images/men/1667564471_9335742.webp"}
                         onRemove={() => handleRemoveItem(index)}
                         onMoveToWishlist={() => handleMoveToWishlist(index)}
                     />

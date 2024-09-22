@@ -5,24 +5,32 @@ interface CartItemProps {
     price: number;
     size: string;
     qty: number;
+    description: string;  // New field
     imageUrl: string;
     onRemove: () => void;
     onMoveToWishlist: () => void;
+    onIncreaseQty: () => void;  // New field
+    onDecreaseQty: () => void;  // New field
 }
 
-const CartItem: React.FC<CartItemProps> = ({ name, price, size, qty, imageUrl, onRemove, onMoveToWishlist }) => {
+const CartItem: React.FC<CartItemProps> = ({ name, price, size, qty, description, imageUrl, onRemove, onMoveToWishlist, onIncreaseQty, onDecreaseQty }) => {
     return (
         <div className={styles.cartItem}>
             <img src={imageUrl} alt={name} className={styles.itemImage} />
             <div className={styles.itemDetails}>
                 <h4>{name}</h4>
+                <p>{description}</p>  {/* Product Description */}
                 <p>Size: {size}</p>
-                <p>Qty: {qty}</p>
+                <div className={styles.qtyControl}>
+                    <button onClick={onDecreaseQty} className={styles.qtyBtn}>-</button>
+                    <p>{qty}</p>
+                    <button onClick={onIncreaseQty} className={styles.qtyBtn}>+</button>
+                </div>
                 <p>₹ {price}</p>
             </div>
             <div className={styles.actions}>
-                <button onClick={onRemove}>Remove</button>
-                <button onClick={onMoveToWishlist}>Move to Wishlist</button>
+                <button onClick={onRemove} className={styles.actionBtn}>Remove</button>
+                <button onClick={onMoveToWishlist} className={styles.actionBtn}>Move to Wishlist</button>
             </div>
         </div>
     );
