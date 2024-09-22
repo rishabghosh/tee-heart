@@ -5,8 +5,8 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from '@/store/slices/cartSlice';
 import styles from '@/styles/ProductDetails.module.scss';
 import productsData from '@/data/products.json';
-import {ProductExtended} from "@/models/ProductExtended";
-import {convertToCartProduct} from "@/utils/CartItemPropConverter";
+import { ProductExtended } from "@/models/ProductExtended";
+import { convertToCartProduct } from "@/utils/CartItemPropConverter";
 
 interface ProductDetailsProps {
     product: ProductExtended;
@@ -17,7 +17,6 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
     const [selectedSize, setSelectedSize] = useState<string | null>(null);
     const [quantity, setQuantity] = useState(1);
     const [pincode, setPincode] = useState('');
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [wishlistDisabled, setWishlistDisabled] = useState(true);
 
     const handleAddToCart = () => {
@@ -28,7 +27,6 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
             alert('Please select a size');
         }
     };
-
 
     const handleSizeClick = (size: string) => {
         setSelectedSize(size);
@@ -49,13 +47,16 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
     return (
         <div className={styles.productPage}>
             <div className={styles.imageSection}>
-                <Image
-                    src={product.imageUrl}
-                    alt={product.name}
-                    width={500}
-                    height={500}
-                    className={styles.productImage}
-                />
+                {product.imageUrl.map((url, index) => (
+                    <Image
+                        key={index}
+                        src={url}
+                        alt={`${product.name} image ${index + 1}`}
+                        width={500}
+                        height={500}
+                        className={styles.productImage}
+                    />
+                ))}
             </div>
             <div className={styles.detailsSection}>
                 <h1 className={styles.productTitle}>{product.name}</h1>

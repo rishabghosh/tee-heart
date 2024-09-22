@@ -2,7 +2,7 @@ export class ProductExtended {
     id: number;
     name: string;
     price: string;
-    imageUrl: string;
+    imageUrl: string[];
     description: string = "This is a high-quality product.";
     sizes: string[];
     material: string = "Cotton";
@@ -17,7 +17,7 @@ export class ProductExtended {
         id: number,
         name: string,
         price: string,
-        imageUrl: string,
+        imageUrl: string[],
         sizes: string[]
     ) {
         this.id = id;

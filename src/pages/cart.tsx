@@ -37,7 +37,7 @@ const Cart: React.FC = () => {
                         price={item.price}
                         size={item.size}
                         qty={item.qty}
-                        imageUrl={item.imageUrl}
+                        imageUrl={item.imageUrl[0]}
                         description={item.description}
                         onIncreaseQty={() => handleQuantityChange(item.id, item.size, item.qty + 1)}
                         onDecreaseQty={() => handleQuantityChange(item.id, item.size, item.qty - 1)}

@@ -2,7 +2,7 @@ export interface Product {
     id: number;
     name: string;
     price: string;
-    imageUrl: string;
+    imageUrl: string[]; // todo -> should be imageUrls
     category: string;
     theme: string;
     sizes: string[];
