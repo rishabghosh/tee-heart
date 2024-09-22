@@ -1,0 +1,2043 @@
+[
+  {
+    "id": 1,
+    "name": "Polo Shirts - Toy Story",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1722004334_5839977.jpg",
+      "/images/men/1725622345_8374054.jpg",
+      "/images/men/1716621518_5221015.jpg",
+      "/images/men/1723665789_1941660.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Ironman",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hoodies - Donald Duck",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1714842000_9064168.jpg",
+      "/images/men/1723876088_9757805.jpg",
+      "/images/men/1693660919_5406955.jpg",
+      "/images/men/1725371336_3842822.jpg",
+      "/images/men/1713615842_8315829.jpg",
+      "/images/men/1726044482_3440075.jpg",
+      "/images/men/1720618568_3478771.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Looney Tunes",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Oversized T-Shirts - Donald Duck",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1724842621_9269362.jpg",
+      "/images/men/1711810629_6965660.jpg",
+      "/images/men/1721459567_3795582.jpg",
+      "/images/men/1692022746_7099233.jpg",
+      "/images/men/1711095631_2148830.jpg",
+      "/images/men/1724305526_7095054.jpg",
+      "/images/men/1713003313_6892678.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Thor",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "T-Shirts - Harry Potter",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1726321379_9682665.jpg",
+      "/images/men/1701842146_4151197.jpg",
+      "/images/men/1720511319_6654267.jpg",
+      "/images/men/1723665973_1463288.jpg",
+      "/images/men/1709988579_7311552.jpg",
+      "/images/men/1686834870_7903043.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Naruto",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sports T-Shirts - Game of Thrones",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1701415367_1502785.jpg",
+      "/images/men/1723877002_1054758.jpg",
+      "/images/men/1718991470_3278230.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Kung Fu Panda",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Shirts - Captain Marvel",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1721029861_2727869.jpg",
+      "/images/men/1690363237_8192000.jpg",
+      "/images/men/1723922659_4984849.jpg",
+      "/images/men/1710918520_9961926.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Peanuts",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Shirts - Looney Tunes",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1725371538_1278178.jpg",
+      "/images/men/1705148924_7673603.jpg",
+      "/images/men/1725862878_4692466.jpg",
+      "/images/men/1689146646_8609826.jpg",
+      "/images/men/1709359650_6465714.jpg",
+      "/images/men/1712913889_6537758.jpg",
+      "/images/men/1690278424_5687370.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Simpsons",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Jackets - Frozen",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1726136070_6685371.jpg",
+      "/images/men/1722012584_9787049.jpg",
+      "/images/men/1715670226_5380813.jpg",
+      "/images/men/1711433901_8426623.jpg",
+      "/images/men/1720697381_4125903.jpg",
+      "/images/men/1710852716_2220769.jpg",
+      "/images/men/1718451968_6075667.jpg",
+      "/images/men/1711094958_7801578.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Mickey Mouse",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sweatshirts - Star Wars",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1711432850_1238045.jpg",
+      "/images/men/1690779839_2836277.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Donald Duck",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Jackets - Mickey Mouse",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1686117793_5666643.jpg",
+      "/images/men/1717404363_9333357.jpg",
+      "/images/men/1710519641_4059401.jpg",
+      "/images/men/1710312280_4527937.jpg",
+      "/images/men/1724305839_9604591.jpg",
+      "/images/men/1712565599_9672705.jpg",
+      "/images/men/1690959897_1681914.jpg"
+    ],
+    "category": "Jackets",
+    "customer": "men",
+    "theme": "Star Wars",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Hoodies - Garfield",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1723879971_7411847.jpg",
+      "/images/men/1703589222_2153565.jpg",
+      "/images/men/1722934583_7401183.jpg",
+      "/images/men/1716816192_3115638.jpg",
+      "/images/men/1724522113_8829473.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Scooby-Doo",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "T-Shirts - Captain Marvel",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1725428161_4506461.jpg",
+      "/images/men/1710926252_4620002.jpg",
+      "/images/men/1713613042_6325190.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Mickey Mouse",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Hoodies - Black Panther",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1726044382_6761911.jpg",
+      "/images/men/1711001642_7998547.jpg",
+      "/images/men/1689311075_4377149.jpg",
+      "/images/men/1720797677_3131986.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Wolverine",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Shirts - Wolverine",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1716623886_9422048.jpg",
+      "/images/men/1714207343_1617091.jpg",
+      "/images/men/1711004489_6354136.jpg",
+      "/images/men/1700205910_5505622.jpg",
+      "/images/men/1711453999_7722707.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "The Simpsons",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Polo Shirts - Peanuts",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1713009572_6083621.jpg",
+      "/images/men/1702551259_8979803.jpg",
+      "/images/men/1711451400_6128715.jpg",
+      "/images/men/1710517370_2589016.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Garfield",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Blazers - Black Panther",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1720803959_7925553.jpg",
+      "/images/men/1711704269_3066294.jpg",
+      "/images/men/1693467978_4993492.jpg",
+      "/images/men/1711001303_8120898.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Toy Story",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Polo Shirts - Friends",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1721128657_3033919.jpg",
+      "/images/men/1710926409_1118147.jpg",
+      "/images/men/1709015563_5452764.jpg",
+      "/images/men/1700568240_5212051.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "The Simpsons",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Sports T-Shirts - Wolverine",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1710852581_2949362.jpg",
+      "/images/men/1722934583_2252600.jpg",
+      "/images/men/1693988713_6819055.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Spongebob",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Denim Jackets - Ironman",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1724842384_3127089.jpg",
+      "/images/men/1711000365_6459951.jpg",
+      "/images/men/1688213575_2147508.jpg",
+      "/images/men/1725046720_7987802.jpg",
+      "/images/men/1722012398_6887929.jpg",
+      "/images/men/1723665417_9128965.jpg",
+      "/images/men/1683456891_4049977.jpg",
+      "/images/men/1692023073_9412176.jpg"
+    ],
+    "category": "Polo Shirts",
+    "customer": "men",
+    "theme": "Wonder Woman",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "T-Shirts - Breaking Bad",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1722083339_1651401.jpg",
+      "/images/men/1720203265_8275648.jpg",
+      "/images/men/1726315197_8300692.jpg",
+      "/images/men/1718189191_5556743.jpg",
+      "/images/men/1724848655_7306988.jpg",
+      "/images/men/1709988579_8278630.jpg",
+      "/images/men/1726223269_6790740.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Stranger Things",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Denim Jackets - Tom and Jerry",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1723922232_8894254.jpg",
+      "/images/men/1690357352_4963727.jpg",
+      "/images/men/1711090855_4106589.jpg",
+      "/images/men/1711106033_5250685.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Flash",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Hoodies - Looney Tunes",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1711131970_4146454.jpg",
+      "/images/men/1711191912_8749178.jpg",
+      "/images/men/1710829852_5119862.jpg",
+      "/images/men/1708952741_3478815.jpg",
+      "/images/men/1726044493_2825820.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Scooby-Doo",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Polo Shirts - Simpsons",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1720158828_8883894.jpg",
+      "/images/men/1710567938_1354914.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "X-Men",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Shirts - Avengers",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1711780333_8970991.jpg",
+      "/images/men/1711622791_8345251.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Parks and Recreation",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Blazers - Kung Fu Panda",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1726032588_2948271.jpg",
+      "/images/men/1715448110_2009250.jpg",
+      "/images/men/1704290962_9812503.jpg",
+      "/images/men/1710850781_1621381.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Superman",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Sweatshirts - Scooby-Doo",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1713507594_1732022.jpg",
+      "/images/men/1695984303_7778666.jpg",
+      "/images/men/1710852484_9490335.jpg",
+      "/images/men/1688209028_4892916.jpg",
+      "/images/men/1724412727_5781022.jpg",
+      "/images/men/1723011221_3983908.jpg",
+      "/images/men/1710926637_4857188.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Justice League",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Polo Shirts - Star Wars",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1711106872_4870696.jpg",
+      "/images/men/1718953582_7994799.jpg",
+      "/images/men/1700279707_2833901.jpg",
+      "/images/men/1691063788_9103662.jpg",
+      "/images/men/1692940166_2677951.jpg",
+      "/images/men/1713507594_6570792.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Star Wars",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Polo Shirts - Captain America",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1717175780_4811692.jpg",
+      "/images/men/1692340097_9861541.jpg",
+      "/images/men/1710850859_5759231.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Looney Tunes",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Jackets - Flash",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1690367602_8687989.jpg",
+      "/images/men/1726223269_2229639.jpg",
+      "/images/men/1710518710_7624644.jpg",
+      "/images/men/1711538571_8795123.jpg",
+      "/images/men/1713001945_4383635.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Peanuts",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Oversized T-Shirts - Spiderman",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1718467122_7021630.jpg",
+      "/images/men/1724912418_3904678.jpg",
+      "/images/men/1711453957_2006718.jpg",
+      "/images/men/1710853056_8904479.jpg",
+      "/images/men/1718191581_6977583.jpg",
+      "/images/men/1725360325_7153194.jpg",
+      "/images/men/1718511430_7523788.jpg",
+      "/images/men/1712557721_7746037.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Flash",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Sweatshirts - The Simpsons",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1725429035_9898154.jpg",
+      "/images/men/1715442565_5630072.jpg",
+      "/images/men/1720079202_1499008.jpg",
+      "/images/men/1711000645_6342789.jpg",
+      "/images/men/1713875676_4186723.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Marvel",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Jackets - Doctor Strange",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1715236647_3693060.jpg",
+      "/images/men/1700280025_7494897.jpg",
+      "/images/men/1720854322_2159174.jpg"
+    ],
+    "category": "Sports T-Shirts",
+    "customer": "men",
+    "theme": "Friends",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Blazers - Frozen",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1719647513_7921724.jpg",
+      "/images/men/1718991444_3226591.jpg",
+      "/images/men/1711451925_1688818.jpg",
+      "/images/men/1690959969_9635955.jpg",
+      "/images/men/1710829195_2469715.jpg",
+      "/images/men/1694589005_2703395.jpg",
+      "/images/men/1725174002_5261860.jpg",
+      "/images/men/1724306611_5672152.jpg"
+    ],
+    "category": "Sports T-Shirts",
+    "customer": "men",
+    "theme": "Brooklyn Nine-Nine",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "T-Shirts - Marvel",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1722072129_6589158.jpg",
+      "/images/men/1724305019_6522846.jpg",
+      "/images/men/1711001874_9796905.jpg",
+      "/images/men/1724305281_7213515.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Batman",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Sports T-Shirts - Peanuts",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1723455364_8518240.jpg",
+      "/images/men/1713002475_2968100.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Doctor Strange",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Sweatshirts - Game of Thrones",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1726044000_4196241.jpg",
+      "/images/men/1724516747_4824969.jpg",
+      "/images/men/1699076292_4317666.jpg",
+      "/images/men/1709988392_6778142.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Justice League",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Denim Jackets - The Simpsons",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1711457733_7600763.jpg",
+      "/images/men/1724515673_1475051.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Batman",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Sweatshirts - Avengers",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1716032323_8559446.jpg",
+      "/images/men/1690278552_5854551.jpg",
+      "/images/men/1719232504_1708225.jpg",
+      "/images/men/1724237840_5302175.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Marvel",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Blazers - Dragon Ball Z",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1724412727_2875655.jpg",
+      "/images/men/1711017276_6819974.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Flash",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Sports T-Shirts - Justice League",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1711184285_3952916.jpg",
+      "/images/men/1710915785_4698067.jpg",
+      "/images/men/1716015243_6019578.jpg",
+      "/images/men/1724065532_8222243.jpg",
+      "/images/men/1704950434_9106190.jpg",
+      "/images/men/1724132186_5870277.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Rick and Morty",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Sports T-Shirts - Looney Tunes",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1715427978_3221061.jpg",
+      "/images/men/1711031237_5336370.jpg",
+      "/images/men/1711132471_7526261.jpg",
+      "/images/men/1716903864_5582864.jpg",
+      "/images/men/1710851970_6475669.jpg",
+      "/images/men/1711190594_9051315.jpg"
+    ],
+    "category": "Jackets",
+    "customer": "men",
+    "theme": "Looney Tunes",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Polo Shirts - Stranger Things",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1721887066_2455892.jpg",
+      "/images/men/1694594283_4368610.jpg",
+      "/images/men/1719679440_2286575.jpg",
+      "/images/men/1718990396_6207900.jpg",
+      "/images/men/1710312280_6134238.jpg",
+      "/images/men/1692687224_2297291.jpg",
+      "/images/men/1667564471_9335742.jpg",
+      "/images/men/1685795967_1807053.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Breaking Bad",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Sports T-Shirts - Garfield",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1725602347_4997529.jpg",
+      "/images/men/1724842621_7246079.jpg",
+      "/images/men/1726321487_7860875.jpg",
+      "/images/men/1692793513_4198270.jpg",
+      "/images/men/1694610156_3722707.jpg",
+      "/images/men/1711105470_3422610.jpg",
+      "/images/men/1710519012_6600977.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Spongebob",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Hoodies - Looney Tunes",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1712908718_7580322.jpg",
+      "/images/men/1711106971_9644190.jpg",
+      "/images/men/1714835351_7153017.jpg",
+      "/images/men/1725351775_9864797.jpg",
+      "/images/men/1717405288_9956003.jpg",
+      "/images/men/1724521168_1341616.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Toy Story",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Sweatshirts - Garfield",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1711090955_4424274.jpg",
+      "/images/men/1689416075_8948745.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Toy Story",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "T-Shirts - Family Guy",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1724848655_4494662.jpg",
+      "/images/men/1718348893_4260677.jpg",
+      "/images/men/1725643219_4708158.jpg",
+      "/images/men/1720202721_3659399.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Superman",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "T-Shirts - The Office",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1710330280_7794860.jpg",
+      "/images/men/1710310873_2561495.jpg",
+      "/images/men/1694172010_7729348.jpg",
+      "/images/men/1718959356_9120351.jpg",
+      "/images/men/1720189744_5287918.jpg",
+      "/images/men/1711031313_4041919.jpg"
+    ],
+    "category": "Sports T-Shirts",
+    "customer": "men",
+    "theme": "Looney Tunes",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Jackets - Simpsons",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1716032323_3801325.jpg",
+      "/images/men/1721143313_9288397.jpg",
+      "/images/men/1715683202_6997324.jpg",
+      "/images/men/1719035251_1445034.jpg",
+      "/images/men/1711003902_8368496.jpg",
+      "/images/men/1708413548_3007889.jpg",
+      "/images/men/1686849381_1739281.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Parks and Recreation",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Sports T-Shirts - Star Wars",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1722251795_8432642.jpg",
+      "/images/men/1716816441_5922204.jpg",
+      "/images/men/1725044801_2747781.jpg",
+      "/images/men/1725372359_6830093.jpg",
+      "/images/men/1685447774_3186210.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Guardians of the Galaxy",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Jackets - Simpsons",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1704867861_1585029.jpg",
+      "/images/men/1712999311_8533946.jpg",
+      "/images/men/1711433160_8163562.jpg",
+      "/images/men/1697360089_1594472.jpg",
+      "/images/men/1712399846_7605296.jpg",
+      "/images/men/1708179090_7517020.jpg"
+    ],
+    "category": "Polo Shirts",
+    "customer": "men",
+    "theme": "Justice League",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Blazers - Spiderman",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1705408203_9067124.jpg",
+      "/images/men/1719499011_8344454.jpg",
+      "/images/men/1693989062_4694871.jpg",
+      "/images/men/1690279259_2846829.jpg",
+      "/images/men/1717404638_7999613.jpg",
+      "/images/men/1711113383_7818902.jpg",
+      "/images/men/1716815688_6740624.jpg",
+      "/images/men/1710850420_5617414.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Garfield",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Jackets - One Piece",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1719230357_8929219.jpg",
+      "/images/men/1720173402_8162209.jpg",
+      "/images/men/1716815301_8638072.jpg",
+      "/images/men/1716903193_3081785.jpg",
+      "/images/men/1718437616_9539013.jpg",
+      "/images/men/1724843880_3157840.jpg",
+      "/images/men/1710331334_1337739.jpg",
+      "/images/men/1692771647_5011439.jpg"
+    ],
+    "category": "Sports T-Shirts",
+    "customer": "men",
+    "theme": "Thor",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Sports T-Shirts - Stranger Things",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1726310010_6396034.jpg",
+      "/images/men/1721915126_7235592.jpg",
+      "/images/men/1711132388_5665324.jpg",
+      "/images/men/1722082137_1462586.jpg",
+      "/images/men/1711190182_7626367.jpg",
+      "/images/men/1692774726_1127431.jpg",
+      "/images/men/1711451266_9771958.jpg",
+      "/images/men/1724305674_8603802.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Harry Potter",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Blazers - Simpsons",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1726321336_5155534.jpg",
+      "/images/men/1713958382_7016193.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Ironman",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Hoodies - Wonder Woman",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1710852766_6220051.jpg",
+      "/images/men/1721491870_9851615.jpg",
+      "/images/men/1726222954_8320862.jpg",
+      "/images/men/1719044712_5086156.jpg"
+    ],
+    "category": "Polo Shirts",
+    "customer": "men",
+    "theme": "Kung Fu Panda",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Oversized T-Shirts - Toy Story",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1711112752_5101161.jpg",
+      "/images/men/1691411803_3744030.jpg",
+      "/images/men/1720763083_5676075.jpg",
+      "/images/men/1691484551_9597629.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Friends",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Oversized T-Shirts - Wolverine",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1710397018_6320330.jpg",
+      "/images/men/1720762785_7488273.jpg",
+      "/images/men/1717653663_6053583.jpg",
+      "/images/men/1719034779_1933567.jpg",
+      "/images/men/1724477978_6633076.jpg",
+      "/images/men/1718983574_8096231.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Peanuts",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Jackets - Naruto",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1711105361_3689469.jpg",
+      "/images/men/1723876184_7912014.jpg",
+      "/images/men/1719683144_9225880.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Wolverine",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Sweatshirts - Naruto",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1711781523_1417356.jpg",
+      "/images/men/1711133565_9441507.jpg",
+      "/images/men/1711191229_2214929.jpg",
+      "/images/men/1724477978_9096003.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Dragon Ball Z",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Sports T-Shirts - Justice League",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1712391636_4389124.jpg",
+      "/images/men/1711131970_6689422.jpg",
+      "/images/men/1724658809_6964802.jpg",
+      "/images/men/1713943281_3000776.jpg",
+      "/images/men/1690282964_9466305.jpg",
+      "/images/men/1714825438_5114803.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Avengers",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "T-Shirts - Spongebob",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1723622433_5124467.jpg",
+      "/images/men/1710603466_9345429.jpg",
+      "/images/men/1711095597_4330340.jpg",
+      "/images/men/1722434034_1699145.jpg",
+      "/images/men/1711458266_2027557.jpg",
+      "/images/men/1713874574_4071033.jpg",
+      "/images/men/1710330419_7542883.jpg",
+      "/images/men/1726140511_7583656.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Scooby-Doo",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Blazers - Avengers",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1711031457_3729184.jpg",
+      "/images/men/1718510006_6925672.jpg",
+      "/images/men/1709992546_3665916.jpg",
+      "/images/men/1711087975_8522878.jpg",
+      "/images/men/1717059816_2929036.jpg",
+      "/images/men/1710330419_3267994.jpg",
+      "/images/men/1718958565_6107376.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Frozen",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Hoodies - Guardians of the Galaxy",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1712915454_9413904.jpg",
+      "/images/men/1718464949_6653133.jpg",
+      "/images/men/1711434111_1458251.jpg",
+      "/images/men/1724305438_3466616.jpg",
+      "/images/men/1725359978_2556995.jpg",
+      "/images/men/1725172110_9167463.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Rick and Morty",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Sports T-Shirts - Peanuts",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1712557982_3059501.jpg",
+      "/images/men/1711113455_3283681.jpg",
+      "/images/men/1726325300_2818328.jpg",
+      "/images/men/1711608307_3110020.jpg"
+    ],
+    "category": "Sports T-Shirts",
+    "customer": "men",
+    "theme": "Brooklyn Nine-Nine",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Sweatshirts - Breaking Bad",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1694084992_9648657.jpg",
+      "/images/men/1718959803_7063705.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Scooby-Doo",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Hoodies - Friends",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1724311053_9258150.jpg",
+      "/images/men/1712385056_7443300.jpg",
+      "/images/men/1719635399_5202727.jpg",
+      "/images/men/1712910127_3263613.jpg",
+      "/images/men/1708159996_8974035.jpg",
+      "/images/men/1710916150_9927959.jpg",
+      "/images/men/1724515673_2996177.jpg"
+    ],
+    "category": "Polo Shirts",
+    "customer": "men",
+    "theme": "Toy Story",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Hoodies - Justice League",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1711458411_7204623.jpg",
+      "/images/men/1713781089_4374688.jpg",
+      "/images/men/1722933887_6979048.jpg",
+      "/images/men/1711001602_2122346.jpg",
+      "/images/men/1674111434_1679277.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Family Guy",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "T-Shirts - Tom and Jerry",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1691471017_3867059.jpg",
+      "/images/men/1725172337_8428930.jpg",
+      "/images/men/1719678720_4898343.jpg",
+      "/images/men/1721457034_4593166.jpg",
+      "/images/men/1712391636_2318702.jpg",
+      "/images/men/1694068563_2855338.jpg",
+      "/images/men/1725274900_8490003.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Captain Marvel",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Shirts - Wonder Woman",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1722420351_5215062.jpg",
+      "/images/men/1718959028_4296944.jpg",
+      "/images/men/1690023780_7737579.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Stranger Things",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Blazers - Batman",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1690279018_8518051.jpg",
+      "/images/men/1710518365_6895909.jpg"
+    ],
+    "category": "Polo Shirts",
+    "customer": "men",
+    "theme": "X-Men",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Shirts - Breaking Bad",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1711133234_7540523.jpg",
+      "/images/men/1692793332_6048243.jpg",
+      "/images/men/1710915045_6416807.jpg",
+      "/images/men/1710915476_6505693.jpg",
+      "/images/men/1711458182_9517041.jpg"
+    ],
+    "category": "Sports T-Shirts",
+    "customer": "men",
+    "theme": "The Office",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Sweatshirts - Flash",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1715448110_1443849.jpg",
+      "/images/men/1710915257_2453511.jpg",
+      "/images/men/1699776383_7775383.jpg",
+      "/images/men/1718191374_9787081.jpg",
+      "/images/men/1721843096_3714298.jpg",
+      "/images/men/1711454240_7696632.jpg",
+      "/images/men/1711622525_6179039.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Stranger Things",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "T-Shirts - Friends",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1726044363_7142367.jpg",
+      "/images/men/1711016174_7275696.jpg",
+      "/images/men/1696667006_6359717.jpg",
+      "/images/men/1711452031_2097402.jpg",
+      "/images/men/1726139409_8996481.jpg",
+      "/images/men/1720854016_8385177.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "Wonder Woman",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Shirts - Naruto",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1695278705_3639164.jpg",
+      "/images/men/1720697381_9492918.jpg",
+      "/images/men/1716890936_5507841.jpg",
+      "/images/men/1696589304_4700779.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Friends",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "T-Shirts - Aquaman",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1717405288_1038530.jpg",
+      "/images/men/1710866991_7254326.jpg",
+      "/images/men/1724843880_8002775.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Spongebob",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Denim Jackets - The Office",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1725019961_7050293.jpg",
+      "/images/men/1711000051_3267568.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Harry Potter",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "T-Shirts - Dragon Ball Z",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1709988111_5143501.jpg",
+      "/images/men/1711608307_4931625.jpg",
+      "/images/men/1725862878_5511770.jpg",
+      "/images/men/1725624702_7076558.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "X-Men",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Shirts - Frozen",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1716034152_3315731.jpg",
+      "/images/men/1706763556_2259746.jpg",
+      "/images/men/1725965973_1485247.jpg",
+      "/images/men/1723026554_4213357.jpg",
+      "/images/men/1720853817_2540233.jpg"
+    ],
+    "category": "Polo Shirts",
+    "customer": "men",
+    "theme": "Game of Thrones",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Oversized T-Shirts - Family Guy",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1724520080_6114433.jpg",
+      "/images/men/1717175780_1352174.jpg",
+      "/images/men/1724305573_4400439.jpg"
+    ],
+    "category": "Jackets",
+    "customer": "men",
+    "theme": "Looney Tunes",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "T-Shirts - Superman",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1701259504_7158254.jpg",
+      "/images/men/1726122231_4924436.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Guardians of the Galaxy",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Jackets - Spongebob",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1668254021_8395929.jpg",
+      "/images/men/1723102443_8332191.jpg",
+      "/images/men/1720854669_3448644.jpg",
+      "/images/men/1723926081_6805808.jpg",
+      "/images/men/1715235383_1853856.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Kung Fu Panda",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Jackets - Avengers",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1724218563_4484138.jpg",
+      "/images/men/1717405566_2472583.jpg",
+      "/images/men/1711433489_9964069.jpg",
+      "/images/men/1710328838_5615509.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Justice League",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Shirts - Tom and Jerry",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1724842370_1473244.jpg",
+      "/images/men/1722933887_2440870.jpg",
+      "/images/men/1709204833_5817163.jpg",
+      "/images/men/1667564471_6409695.jpg",
+      "/images/men/1690351223_8632261.jpg",
+      "/images/men/1686649773_4123429.jpg"
+    ],
+    "category": "Blazers",
+    "customer": "men",
+    "theme": "The Office",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Shirts - X-Men",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1710853363_3354537.jpg",
+      "/images/men/1711000784_8281640.jpg",
+      "/images/men/1713003140_2444264.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Friends",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "T-Shirts - Spiderman",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1722582970_3306036.jpg",
+      "/images/men/1690348514_9728594.jpg",
+      "/images/men/1718464949_3471535.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Dragon Ball Z",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Polo Shirts - Friends",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1711432677_3024442.jpg",
+      "/images/men/1722420351_3275914.jpg",
+      "/images/men/1721459155_5378951.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Peanuts",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Shirts - Superman",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1725101192_6498856.jpg",
+      "/images/men/1714125132_9297901.jpg",
+      "/images/men/1719034664_3924525.jpg",
+      "/images/men/1710746655_9690541.jpg",
+      "/images/men/1687421163_3808317.jpg",
+      "/images/men/1722068446_5793694.jpg",
+      "/images/men/1711964227_3969455.jpg",
+      "/images/men/1715848154_1976751.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Garfield",
+    "sizes": [
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Hoodies - Black Panther",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1711004186_1580212.jpg",
+      "/images/men/1713957765_8512514.jpg",
+      "/images/men/1714125132_7802130.jpg"
+    ],
+    "category": "Jackets",
+    "customer": "men",
+    "theme": "One Piece",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Jackets - Peanuts",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1715442565_4975684.jpg",
+      "/images/men/1698328283_2723895.jpg",
+      "/images/men/1722251795_6260959.jpg",
+      "/images/men/1716815688_3695676.jpg",
+      "/images/men/1711036052_5419294.jpg",
+      "/images/men/1710330280_3971062.jpg",
+      "/images/men/1690780030_1432229.jpg"
+    ],
+    "category": "Denim Jackets",
+    "customer": "men",
+    "theme": "Frozen",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Shirts - DC Comics",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1690368936_1602636.jpg",
+      "/images/men/1715848154_6123773.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Family Guy",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Sports T-Shirts - Superman",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1691471112_8946937.jpg",
+      "/images/men/1712384626_7802469.jpg",
+      "/images/men/1705488648_2619231.jpg",
+      "/images/men/1692687293_8923180.jpg",
+      "/images/men/1688207088_6922227.jpg",
+      "/images/men/1726032588_3465204.jpg",
+      "/images/men/1718510006_8587801.jpg",
+      "/images/men/1719044760_9978105.jpg"
+    ],
+    "category": "T-Shirts",
+    "customer": "men",
+    "theme": "Avengers",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Shirts - DC Comics",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1721915126_2016620.jpg",
+      "/images/men/1724518884_2950024.jpg",
+      "/images/men/1713628937_3011986.jpg",
+      "/images/men/1700136035_6650733.jpg",
+      "/images/men/1724065532_7694892.jpg",
+      "/images/men/1711190361_5313453.jpg",
+      "/images/men/1709988998_2663957.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Black Panther",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Shirts - Aquaman",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1711622814_6012752.jpg",
+      "/images/men/1706888367_3396896.jpg",
+      "/images/men/1718191125_4898360.jpg",
+      "/images/men/1713628937_1118662.jpg",
+      "/images/men/1717404498_1598744.jpg",
+      "/images/men/1694242148_8978493.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "X-Men",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Sweatshirts - Justice League",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1723294837_6983168.jpg",
+      "/images/men/1690357179_4120492.jpg",
+      "/images/men/1713003101_4353588.jpg",
+      "/images/men/1710331682_2960499.jpg",
+      "/images/men/1712041447_1585306.jpg",
+      "/images/men/1723926081_4289745.jpg"
+    ],
+    "category": "Sweatshirts",
+    "customer": "men",
+    "theme": "Justice League",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "T-Shirts - Mickey Mouse",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1710395935_6357875.jpg",
+      "/images/men/1720178972_7193101.jpg",
+      "/images/men/1694604680_6504644.jpg",
+      "/images/men/1726321290_9277539.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Aquaman",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Polo Shirts - Guardians of the Galaxy",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1717404498_7954669.jpg",
+      "/images/men/1720079852_2652297.jpg",
+      "/images/men/1718196791_4418259.jpg",
+      "/images/men/1709964603_3068671.jpg",
+      "/images/men/1726321508_9577207.jpg",
+      "/images/men/1691841992_2455199.jpg",
+      "/images/men/1726222169_4799380.jpg",
+      "/images/men/1712387330_8146559.jpg"
+    ],
+    "category": "Shirts",
+    "customer": "men",
+    "theme": "Game of Thrones",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Hoodies - Batman",
+    "price": "₹499",
+    "imageUrl": [
+      "/images/men/1690350275_1457830.jpg",
+      "/images/men/1694079858_6276010.jpg",
+      "/images/men/1711452694_1548814.jpg",
+      "/images/men/1694173141_6398417.jpg",
+      "/images/men/1712746445_3424074.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Looney Tunes",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Denim Jackets - DC Comics",
+    "price": "₹699",
+    "imageUrl": [
+      "/images/men/1712999311_2613584.jpg",
+      "/images/men/1713943206_3378857.jpg",
+      "/images/men/1723284397_3690136.jpg",
+      "/images/men/1713506956_4325265.jpg",
+      "/images/men/1718348893_6177751.jpg",
+      "/images/men/1726315197_8593573.jpg"
+    ],
+    "category": "Hoodies",
+    "customer": "men",
+    "theme": "Wonder Woman",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Sweatshirts - Marvel",
+    "price": "₹1299",
+    "imageUrl": [
+      "/images/men/1699595648_3322877.jpg",
+      "/images/men/1694081951_2700345.jpg",
+      "/images/men/1721815002_4681487.jpg",
+      "/images/men/1725965973_2441819.jpg",
+      "/images/men/1724842518_1736874.jpg",
+      "/images/men/1724522113_8810514.jpg",
+      "/images/men/1713611208_7622951.jpg",
+      "/images/men/1711105950_3311890.jpg"
+    ],
+    "category": "Oversized T-Shirts",
+    "customer": "men",
+    "theme": "Wonder Woman",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Blazers - The Office",
+    "price": "₹999",
+    "imageUrl": [
+      "/images/men/1720511319_9830905.jpg",
+      "/images/men/1690271983_2058730.jpg",
+      "/images/men/1726310010_8517196.jpg",
+      "/images/men/1722082137_8384095.jpg",
+      "/images/men/1712999934_2883175.jpg"
+    ],
+    "category": "Polo Shirts",
+    "customer": "men",
+    "theme": "Naruto",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  }
+]
