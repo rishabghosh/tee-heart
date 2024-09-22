@@ -1,25 +1,23 @@
-import CartItem from './CartItem';
-import CartSummary from './CartSummary';
+import CartItem from "@/components/CartItem";
+import CartSummary from '../components/CartSummary';
 import styles from '../styles/Cart.module.scss';
+import {useDispatch, useSelector} from "react-redux";
+import {removeFromCart} from "@/store/slices/cartSlice";
+import {RootState} from "@/store/store";
 
 const Cart: React.FC = () => {
-    const cartItems = [
-        {
-            name: "Spider-Man: Midnight",
-            price: 1499,
-            size: "XS",
-            qty: 1,
-            imageUrl: "/path-to-image/spiderman-tshirt.png",
-        },
-        // Add more items if needed
-    ];
 
     const cartTotal = 1338.39;
     const gst = 160.61;
     const totalAmount = 1499;
 
-    const handleRemoveItem = (index: number) => {
-        // Remove item logic
+
+    const cartItems = useSelector((state: RootState) => state.cart.items);
+
+    const dispatch = useDispatch();
+
+    const handleRemoveItem = (id: number) => {
+        dispatch(removeFromCart(id));
     };
 
     const handleMoveToWishlist = (index: number) => {
@@ -33,9 +31,9 @@ const Cart: React.FC = () => {
                     <CartItem
                         key={index}
                         name={item.name}
-                        price={item.price}
-                        size={item.size}
-                        qty={item.qty}
+                        price={100}
+                        size={'M'}
+                        qty={2}
                         imageUrl={item.imageUrl}
                         onRemove={() => handleRemoveItem(index)}
                         onMoveToWishlist={() => handleMoveToWishlist(index)}
