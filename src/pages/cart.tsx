@@ -6,11 +6,11 @@ import { removeFromCart, changeItemQuantity } from "@/store/slices/cartSlice";
 import { RootState } from "@/store/store";
 
 const Cart: React.FC = () => {
-    const cart = useSelector((state: RootState) => state.cart.cart);
+    const cartItems = useSelector((state: RootState) => state.cart.items);
     const dispatch = useDispatch();
 
-    // Get total price and GST
-    const cartTotal = cart.getTotalPrice();
+    // Calculate total price and GST
+    const cartTotal = cartItems.reduce((acc, item) => acc + item.price * item.qty, 0);
     const gst = cartTotal * 0.12;
     const totalAmount = cartTotal + gst;
 
@@ -21,13 +21,15 @@ const Cart: React.FC = () => {
     const handleQuantityChange = (id: number, size: string, qty: number) => {
         if (qty > 0) {
             dispatch(changeItemQuantity({ id, size, qty }));
+        } else {
+            handleRemoveItem(id, size); // Optionally remove if quantity goes below 1
         }
     };
 
     return (
         <div className={styles.cart}>
             <div className={styles.cartItems}>
-                {cart.getItems().map((item, index) => (
+                {cartItems.map((item) => (
                     <CartItem
                         key={`${item.id}-${item.size}`}
                         id={item.id}
