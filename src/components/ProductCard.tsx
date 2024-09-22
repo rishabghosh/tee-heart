@@ -1,18 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/ProductCard.module.scss';
-import { useDispatch } from 'react-redux';
-import { addToCart } from '../store/slices/cartSlice';
 import {Product} from "@/models/Product";
-import {convertToCartProduct} from "@/utils/CartItemPropConverter";
-import cart from "@/pages/cart";
 
 interface ProductCardProps {
     product: Product;
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
 
     const handleAddToCart = () => {
         // dispatch(addToCart(product));

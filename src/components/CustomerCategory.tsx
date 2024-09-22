@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import NavBar from '../components/NavBar';
 import ProductCard from '../components/ProductCard';
 import FilterSidebar from '../components/FilterSidebar';
 import styles from '../styles/Category.module.scss';

@@ -1,8 +1,8 @@
 import styles from '../styles/CartItem.module.scss';
 import { CartItemProps } from "@/models/CartItemProps";
+import Image from "next/image";
 
 const CartItem: React.FC<CartItemProps> = ({
-                                               id,
                                                name,
                                                price,
                                                size,
@@ -18,7 +18,13 @@ const CartItem: React.FC<CartItemProps> = ({
 
     return (
         <div className={styles.cartItem}>
-            <img src={imageUrl} alt={name} className={styles.itemImage} />
+            <Image
+                src={imageUrl}
+                alt={name}
+                width={500}
+                height={500}
+                className={styles.itemImage}
+            />
             <div className={styles.itemDetails}>
                 <h4>{name}</h4>
                 <p>{description}</p>

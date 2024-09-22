@@ -17,7 +17,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
     const [selectedSize, setSelectedSize] = useState<string | null>(null);
     const [quantity, setQuantity] = useState(1);
     const [pincode, setPincode] = useState('');
-    const [wishlistDisabled, setWishlistDisabled] = useState(true);
+    const [wishlistDisabled] = useState(true);
 
     const handleAddToCart = () => {
         if (selectedSize) {

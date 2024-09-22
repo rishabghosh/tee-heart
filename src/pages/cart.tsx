@@ -18,6 +18,10 @@ const Cart: React.FC = () => {
         dispatch(removeFromCart({ id, size }));
     };
 
+    const handleMoveToWishList = () => {
+
+    }
+
     const handleQuantityChange = (id: number, size: string, qty: number) => {
         if (qty > 0) {
             dispatch(changeItemQuantity({ id, size, qty }));
@@ -42,6 +46,7 @@ const Cart: React.FC = () => {
                         onIncreaseQty={() => handleQuantityChange(item.id, item.size, item.qty + 1)}
                         onDecreaseQty={() => handleQuantityChange(item.id, item.size, item.qty - 1)}
                         onRemove={() => handleRemoveItem(item.id, item.size)}
+                        onMoveToWishlist={()=> handleMoveToWishList()}
                     />
                 ))}
             </div>

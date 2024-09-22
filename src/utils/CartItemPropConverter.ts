@@ -9,6 +9,6 @@ export const convertToCartProduct = (product: ProductExtended, size: string, qty
         size: size,
         qty: qty,
         description: product.description,
-        imageUrl: product.imageUrl,
+        imageUrl: product.imageUrl, //todo-> change imageUrl to imageUrls
     }
 }

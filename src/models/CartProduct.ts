@@ -5,5 +5,5 @@ export interface CartProduct {
     size: string;
     qty: number;
     description: string;
-    imageUrl: string;
+    imageUrl: string[];
 }
