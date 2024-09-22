@@ -14,9 +14,9 @@ const Cart: React.FC = () => {
 
 
 
-    // const cartItems = useSelector((state: RootState) => state.cart.items);
+    const cartItems = useSelector((state: RootState) => state.cart.items);
 
-    const cartItems = [1]
+    // const cartItems = [1]
 
     const dispatch = useDispatch();
 
@@ -34,12 +34,15 @@ const Cart: React.FC = () => {
             <div className={styles.cartItems}>
                 {cartItems.map((item, index) => (
                     <CartItem
-                        key={1}
-                        name={'spiderman tshirt'}
-                        price={100}
-                        size={'M'}
-                        qty={2}
-                        imageUrl={"/images/men/1667564471_9335742.webp"}
+                        key={item.id}
+                        name={item.name}
+                        price={item.price}
+                        size={item.size}
+                        qty={item.qty}
+                        imageUrl={item.imageUrl}
+                        description={item.description}
+                        onIncreaseQty={()=>{}}
+                        onDecreaseQty={()=>{}}
                         onRemove={() => handleRemoveItem(index)}
                         onMoveToWishlist={() => handleMoveToWishlist(index)}
                     />

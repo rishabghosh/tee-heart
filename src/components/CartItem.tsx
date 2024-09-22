@@ -1,17 +1,6 @@
 import styles from '../styles/CartItem.module.scss';
+import {CartItemProps} from "@/models/CartItemProps";
 
-interface CartItemProps {
-    name: string;
-    price: number;
-    size: string;
-    qty: number;
-    description: string;  // New field
-    imageUrl: string;
-    onRemove: () => void;
-    onMoveToWishlist: () => void;
-    onIncreaseQty: () => void;  // New field
-    onDecreaseQty: () => void;  // New field
-}
 
 const CartItem: React.FC<CartItemProps> = ({ name, price, size, qty, description, imageUrl, onRemove, onMoveToWishlist, onIncreaseQty, onDecreaseQty }) => {
     return (
@@ -19,7 +8,7 @@ const CartItem: React.FC<CartItemProps> = ({ name, price, size, qty, description
             <img src={imageUrl} alt={name} className={styles.itemImage} />
             <div className={styles.itemDetails}>
                 <h4>{name}</h4>
-                <p>{description}</p>  {/* Product Description */}
+                <p>{description}</p>
                 <p>Size: {size}</p>
                 <div className={styles.qtyControl}>
                     <button onClick={onDecreaseQty} className={styles.qtyBtn}>-</button>

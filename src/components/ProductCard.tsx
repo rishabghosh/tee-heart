@@ -3,13 +3,9 @@ import Image from 'next/image';
 import styles from '../styles/ProductCard.module.scss';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../store/slices/cartSlice';
-
-interface Product {
-    id: number;
-    name: string;
-    price: string;
-    imageUrl: string;
-}
+import {Product} from "@/models/Product";
+import {convertToCartItemProps} from "@/utils/CartItemPropConverter";
+import cart from "@/pages/cart";
 
 interface ProductCardProps {
     product: Product;
@@ -19,7 +15,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     const dispatch = useDispatch();
 
     const handleAddToCart = () => {
-        dispatch(addToCart(product));
+        // dispatch(addToCart(product));
     };
 
     return (

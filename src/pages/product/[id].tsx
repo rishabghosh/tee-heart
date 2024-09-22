@@ -5,25 +5,12 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from '@/store/slices/cartSlice';
 import styles from '@/styles/ProductDetails.module.scss';
 import productsData from '@/data/products.json';
-
-interface Product {
-    id: number;
-    name: string;
-    price: string;
-    imageUrl: string;
-    description: string;
-    sizes: string[];
-    material: string;
-    careInstructions: string;
-    countryOfOrigin: string;
-    manufacturer: string;
-    manufacturerAddress: string;
-    customerCareNumber: string;
-    email: string;
-}
+import {ProductExtended} from "@/models/ProductExtended";
+import {convertToCartItemProps} from "@/utils/CartItemPropConverter";
+import cart from "@/pages/cart";
 
 interface ProductDetailsProps {
-    product: Product;
+    product: ProductExtended;
 }
 
 const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
@@ -35,7 +22,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
 
     const handleAddToCart = () => {
         if (selectedSize) {
-            dispatch(addToCart({ ...product, selectedSize, quantity }));
+            const cartItemProps = convertToCartItemProps(product, selectedSize, quantity);
+            dispatch(addToCart(cartItemProps));
         } else {
             alert('Please select a size');
         }
