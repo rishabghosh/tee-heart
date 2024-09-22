@@ -1,7 +1,6 @@
 import styles from '../styles/CartItem.module.scss';
 import {CartItemProps} from "@/models/CartItemProps";
 
-
 const CartItem: React.FC<CartItemProps> = ({
                                                name,
                                                price,
@@ -14,6 +13,8 @@ const CartItem: React.FC<CartItemProps> = ({
                                                onIncreaseQty,
                                                onDecreaseQty
                                            }) => {
+    const totalPrice = price * qty; // Calculate total price for the current item based on its quantity
+
     return (
         <div className={styles.cartItem}>
             <img src={imageUrl} alt={name} className={styles.itemImage}/>
@@ -26,7 +27,7 @@ const CartItem: React.FC<CartItemProps> = ({
                     <p>{qty}</p>
                     <button onClick={onIncreaseQty} className={styles.qtyBtn}>+</button>
                 </div>
-                <p>₹ {price}</p>
+                <p>₹ {totalPrice.toFixed(2)}</p> {/* Display total price for the current item */}
             </div>
             <div className={styles.actions}>
                 <button onClick={onRemove} className={styles.actionBtn}>Remove</button>
