@@ -2,10 +2,21 @@ import styles from '../styles/CartItem.module.scss';
 import {CartItemProps} from "@/models/CartItemProps";
 
 
-const CartItem: React.FC<CartItemProps> = ({ name, price, size, qty, description, imageUrl, onRemove, onMoveToWishlist, onIncreaseQty, onDecreaseQty }) => {
+const CartItem: React.FC<CartItemProps> = ({
+                                               name,
+                                               price,
+                                               size,
+                                               qty,
+                                               description,
+                                               imageUrl,
+                                               onRemove,
+                                               onMoveToWishlist,
+                                               onIncreaseQty,
+                                               onDecreaseQty
+                                           }) => {
     return (
         <div className={styles.cartItem}>
-            <img src={imageUrl} alt={name} className={styles.itemImage} />
+            <img src={imageUrl} alt={name} className={styles.itemImage}/>
             <div className={styles.itemDetails}>
                 <h4>{name}</h4>
                 <p>{description}</p>

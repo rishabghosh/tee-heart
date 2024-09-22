@@ -11,9 +11,6 @@ const Cart: React.FC = () => {
     const gst = 160.61;
     const totalAmount = 1499;
 
-
-
-
     const cartItems = useSelector((state: RootState) => state.cart.items);
 
     // const cartItems = [1]
@@ -34,7 +31,7 @@ const Cart: React.FC = () => {
             <div className={styles.cartItems}>
                 {cartItems.map((item, index) => (
                     <CartItem
-                        key={item.id}
+                        id={item.id}
                         name={item.name}
                         price={item.price}
                         size={item.size}

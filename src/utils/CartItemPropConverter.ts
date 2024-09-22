@@ -1,19 +1,14 @@
-import {CartItemProps} from "@/models/CartItemProps";
 import {ProductExtended} from "@/models/ProductExtended";
+import {CartProduct} from "@/models/CartProduct";
 
-export const convertToCartItemProps = (product: ProductExtended, size: string, qty:number) : CartItemProps => {
+export const convertToCartProduct = (product: ProductExtended, size: string, qty: number): CartProduct => {
     return {
         id: product.id,
         name: product.name,
         price: Number(product.price.slice(1)),
         size: size,
-        availableSizes: product.sizes,
         qty: qty,
         description: product.description,
         imageUrl: product.imageUrl,
-        onRemove: () => {},
-        onMoveToWishlist: () => {},
-        onIncreaseQty: () => {},
-        onDecreaseQty: () => {},
     }
 }

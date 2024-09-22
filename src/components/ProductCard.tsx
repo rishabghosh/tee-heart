@@ -4,7 +4,7 @@ import styles from '../styles/ProductCard.module.scss';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../store/slices/cartSlice';
 import {Product} from "@/models/Product";
-import {convertToCartItemProps} from "@/utils/CartItemPropConverter";
+import {convertToCartProduct} from "@/utils/CartItemPropConverter";
 import cart from "@/pages/cart";
 
 interface ProductCardProps {

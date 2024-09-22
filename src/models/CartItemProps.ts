@@ -3,7 +3,6 @@ export interface CartItemProps {
     name: string;
     price: number;
     size: string;
-    availableSizes: string[];
     qty: number;
     description: string;
     imageUrl: string;

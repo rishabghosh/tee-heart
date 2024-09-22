@@ -6,8 +6,7 @@ import { addToCart } from '@/store/slices/cartSlice';
 import styles from '@/styles/ProductDetails.module.scss';
 import productsData from '@/data/products.json';
 import {ProductExtended} from "@/models/ProductExtended";
-import {convertToCartItemProps} from "@/utils/CartItemPropConverter";
-import cart from "@/pages/cart";
+import {convertToCartProduct} from "@/utils/CartItemPropConverter";
 
 interface ProductDetailsProps {
     product: ProductExtended;
@@ -18,12 +17,13 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
     const [selectedSize, setSelectedSize] = useState<string | null>(null);
     const [quantity, setQuantity] = useState(1);
     const [pincode, setPincode] = useState('');
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [wishlistDisabled, setWishlistDisabled] = useState(true);
 
     const handleAddToCart = () => {
         if (selectedSize) {
-            const cartItemProps = convertToCartItemProps(product, selectedSize, quantity);
-            dispatch(addToCart(cartItemProps));
+            const cartProduct = convertToCartProduct(product, selectedSize, quantity);
+            dispatch(addToCart(cartProduct));
         } else {
             alert('Please select a size');
         }
