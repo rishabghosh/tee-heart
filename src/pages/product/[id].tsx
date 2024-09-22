@@ -7,6 +7,7 @@ import styles from '@/styles/ProductDetails.module.scss';
 import productsData from '@/data/products.json';
 import { ProductExtended } from "@/models/ProductExtended";
 import { convertToCartProduct } from "@/utils/CartItemPropConverter";
+import {addDomain} from "@/utils/envUrls";
 
 interface ProductDetailsProps {
     product: ProductExtended;
@@ -50,7 +51,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
                 {product.imageUrl.map((url, index) => (
                     <Image
                         key={index}
-                        src={url}
+                        src={addDomain(url)}
                         alt={`${product.name} image ${index + 1}`}
                         width={500}
                         height={500}

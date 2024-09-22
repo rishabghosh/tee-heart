@@ -1,6 +1,7 @@
 import styles from '../styles/CartItem.module.scss';
 import { CartItemProps } from "@/models/CartItemProps";
 import Image from "next/image";
+import {addDomain} from "@/utils/envUrls";
 
 const CartItem: React.FC<CartItemProps> = ({
                                                name,
@@ -19,7 +20,7 @@ const CartItem: React.FC<CartItemProps> = ({
     return (
         <div className={styles.cartItem}>
             <Image
-                src={imageUrl}
+                src={addDomain(imageUrl)}
                 alt={name}
                 width={500}
                 height={500}

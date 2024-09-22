@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/ProductCard.module.scss';
 import {Product} from "@/models/Product";
+import {addDomain} from "@/utils/envUrls";
 
 interface ProductCardProps {
     product: Product;
@@ -18,7 +19,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <div className={styles.card}>
             <Link href={`/product/${product.id}`}>
                 <Image
-                    src={product.imageUrl[0]}
+                    src={addDomain(product.imageUrl[0])}
                     alt={product.name}
                     className={styles.image}
                     width={500}
