@@ -38,7 +38,7 @@
     }
   }
 
-  .sizeButtons {
+  .sizeOptions {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -46,24 +46,25 @@
     @media (max-width: 768px) {
       justify-content: center; /* Center buttons on mobile */
     }
+
+    .sizeButton {
+      padding: 8px 16px;
+      border: 1px solid #555;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: white;
+      font-size: 14px;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        background-color: #e0e0e0; /* Slight hover effect */
+      }
+
+      &.selectedSizeButton {
+        background-color: #333;
+        color: white;
+      }
+    }
   }
 
-  .sizeButton {
-    padding: 8px 16px;
-    border: 1px solid #555;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: white;
-    font-size: 14px;
-    transition: background-color 0.3s, color 0.3s;
-
-    &:hover {
-      background-color: #e0e0e0; /* Slight hover effect */
-    }
-
-    &.selectedSizeButton {
-      background-color: #333;
-      color: white;
-    }
-  }
 }

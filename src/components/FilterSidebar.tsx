@@ -148,7 +148,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({ products, onFilter }) => 
             </ul>
 
             <h3>Sizes</h3>
-            <div className={styles.sizeButtons}>
+            <div className={styles.sizeOptions}>
                 {sizes.map(size => (
                     <button
                         key={size}
