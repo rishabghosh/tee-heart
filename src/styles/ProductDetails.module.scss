@@ -1,3 +1,34 @@
+.productDetails {
+  font-family: Source Sans Pro, sans-serif;
+  color: #333;
+
+  h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+
+  a {
+    color: #ff5733;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+    color: #555;
+  }
+}
+
 .productPage {
   display: flex;
   padding: 20px;
@@ -7,23 +38,22 @@
   flex: 1;
   margin-right: 20px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two images per row */
-  gap: 15px; /* Space between images */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
 }
 
 .productImage {
-  width: 100%; /* Make the image take the full width of the container */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Cover the area without distorting */
-  border-radius: 8px; /* Rounded corners for a nicer look */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .detailsSection {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .productTitle {
@@ -54,7 +84,7 @@
   gap: 10px;
 
   @media (max-width: 768px) {
-    justify-content: center; /* Center buttons on mobile */
+    justify-content: center;
   }
 
   .sizeButton {
@@ -67,7 +97,7 @@
     transition: background-color 0.3s, color 0.3s;
 
     &:hover {
-      background-color: #e0e0e0; /* Slight hover effect */
+      background-color: #e0e0e0;
     }
 
     &.selectedSizeButton {
@@ -136,16 +166,12 @@
   margin-top: 20px;
 }
 
-.productDetails {
-  margin-top: 20px;
-}
-
 @media (max-width: 768px) {
   .sizeOptions {
-    justify-content: center; /* Center buttons on mobile */
+    justify-content: center;
   }
 
   .imageSection {
-    grid-template-columns: 1fr; /* Stack images vertically on smaller screens */
+    grid-template-columns: 1fr;
   }
 }
