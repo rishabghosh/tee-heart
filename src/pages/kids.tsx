@@ -4,7 +4,8 @@ import products from "@/data/products.json";
 
 
 const Kids: React.FC = () => {
-    return <CustomerCategory title="Kids's Collection" products={products} />;
+    const kidsProducts = products.filter(product=> product.customer === 'kids');
+    return <CustomerCategory title="Kids's Collection" products={kidsProducts} />;
 };
 
 export default Kids;

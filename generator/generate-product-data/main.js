@@ -1,21 +1,16 @@
 import fs from "fs";
-import {categories} from "./menCategories.js";
-import {themes} from "./menThemes.js";
-import {prices} from "./menPrices.js";
-import {sizesList} from "./sizeLists.js";
-import {imageUrls} from "./menImageUrls.js";
+import { customerConfigs } from "./customerConfigs.js";
 
-const customers = ["men"]; // customers can be men, women, kids
-
-// Helper functions to pick random items
+// Helper function to get random items from an array
 const getRandomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
-// Function to generate products
-function generateProducts(numProducts) {
+// Function to generate products for a specific customer based on their configuration
+function generateProducts(config, customer) {
+    const { categories, themes, prices, imageUrls, sizesList } = config;
     const products = [];
     const availableImageUrls = [...imageUrls]; // Clone the image URLs to maintain original
 
-    for (let i = 1; i <= numProducts; i++) {
+    for (let i = 1; i <= config.noOfProducts; i++) {
         const numImages = Math.floor(Math.random() * 7) + 2; // Randomly select between 2-8 images
         const selectedImages = getRandomSubset(availableImageUrls, numImages);
 
@@ -28,12 +23,12 @@ function generateProducts(numProducts) {
         });
 
         const product = {
-            id: i,
+            id: products.length + 1, // Ensure unique IDs across all customers
             name: `${getRandomItem(categories)} - ${getRandomItem(themes)}`,
             price: `₹${getRandomItem(prices)}`,
-            imageUrl: selectedImages, // Use the selected unique image URLs
+            imageUrl: selectedImages,
             category: getRandomItem(categories),
-            customer: getRandomItem(customers),
+            customer: customer,
             theme: getRandomItem(themes),
             sizes: getRandomItem(sizesList)
         };
@@ -49,7 +44,21 @@ const getRandomSubset = (arr, count) => {
     return shuffled.slice(0, count);
 };
 
-// Generate and write products to a JSON file
-const products = generateProducts(100);  // Change the number to generate more/less products
-fs.writeFileSync('products.json', JSON.stringify(products, null, 2));
-console.log("Product data generated and saved to products.json");
+// Generate and write products to a JSON file for all customers
+function generateAndSaveProductsForAllCustomers() {
+    let allProducts = [];
+
+    // Loop through customer configurations (men, women, etc.)
+    for (const customer in customerConfigs) {
+        const config = customerConfigs[customer];
+        const products = generateProducts(config, customer);
+        allProducts = allProducts.concat(products); // Append each customer's products to the overall list
+    }
+
+    // Write all products to the same JSON file
+    fs.writeFileSync('products.json', JSON.stringify(allProducts, null, 2));
+    console.log("Product data for all customers generated and saved to products.json");
+}
+
+// Generate products for all customers
+generateAndSaveProductsForAllCustomers();
