@@ -27,7 +27,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 />
                 <h2 className={styles.name}>{product.name}</h2>
             </Link>
-            <p className={styles.price}>{product.price}</p>
+            <p className={styles.price}>₹ {product.price}</p>
             <button className={styles.button} onClick={handleAddToCart}>
                 Add to Cart
             </button>

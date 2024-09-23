@@ -35,7 +35,7 @@ const CartItem: React.FC<CartItemProps> = ({
                     <p>{qty}</p>
                     <button onClick={onIncreaseQty} className={styles.qtyBtn}>+</button>
                 </div>
-                <p>{totalPrice.toFixed(2)}</p> {/* Display total price for the current item */}
+                <p>₹ {totalPrice.toFixed(2)}</p> {/* Display total price for the current item */}
             </div>
             <div className={styles.actions}>
                 <button onClick={onRemove} className={styles.actionBtn}>Remove</button>
