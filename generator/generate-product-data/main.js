@@ -4,13 +4,16 @@ import { customerConfigs } from "./customerConfigs.js";
 // Helper function to get random items from an array
 const getRandomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
+// Global variable to track unique IDs across customers
+let globalProductId = 1;
+
 // Function to generate products for a specific customer based on their configuration
 function generateProducts(config, customer) {
     const { categories, themes, prices, imageUrls, sizesList } = config;
     const products = [];
     const availableImageUrls = [...imageUrls]; // Clone the image URLs to maintain original
 
-    for (let i = 1; i <= config.noOfProducts; i++) {
+    for (let i = 0; i < config.noOfProducts; i++) {
         const numImages = Math.floor(Math.random() * 7) + 2; // Randomly select between 2-8 images
         const selectedImages = getRandomSubset(availableImageUrls, numImages);
 
@@ -23,7 +26,7 @@ function generateProducts(config, customer) {
         });
 
         const product = {
-            id: products.length + 1, // Ensure unique IDs across all customers
+            id: globalProductId++, // Use and increment globalProductId
             name: `${getRandomItem(categories)} - ${getRandomItem(themes)}`,
             price: `₹${getRandomItem(prices)}`,
             imageUrl: selectedImages,
