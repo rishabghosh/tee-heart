@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import ProductCard from '../components/ProductCard';
 import FilterSidebar from '../components/FilterSidebar';
 import styles from '../styles/Category.module.scss';
-import { Product } from "@/models/Product";
+import {ProductExtended} from "@/models/ProductExtended";
 
 interface CustomerCategoryProps {
     title: string;
-    products: Product[];
+    products: ProductExtended[];
 }
 
 const CustomerCategory: React.FC<CustomerCategoryProps> = ({ title, products }) => {
-    const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
+    const [filteredProducts, setFilteredProducts] = useState<ProductExtended[]>(products);
 
-    const handleFilteredProducts = (filtered: Product[]) => {
+    const handleFilteredProducts = (filtered: ProductExtended[]) => {
         setFilteredProducts(filtered);
     };
 

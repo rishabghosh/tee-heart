@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import styles from '@/styles/FilterSidebar.module.scss';
-import { Product } from '@/models/Product';
+import {ProductExtended} from "@/models/ProductExtended";
 
 interface FilterSidebarProps {
-    products: Product[];
-    onFilter: (filteredProducts: Product[]) => void;
+    products: ProductExtended[];
+    onFilter: (filteredProducts: ProductExtended[]) => void;
 }
 
 const FilterSidebar: React.FC<FilterSidebarProps> = ({ products, onFilter }) => {

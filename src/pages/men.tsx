@@ -1,10 +1,10 @@
 import React from 'react';
 import CustomerCategory from '@/components/CustomerCategory';
 import products from '@/data/products.json';
+import {filterProductBasedOnCustomer} from "@/utils/filters";
 
 const Men: React.FC = () => {
-    const mensProducts = products.filter(product=> product.customer === 'men');
-    return <CustomerCategory title="Men's Collection" products={mensProducts} />;
+    return <CustomerCategory title="Men's Collection" products={filterProductBasedOnCustomer('men', products)} />;
 };
 
 export default Men;

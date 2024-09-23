@@ -4,6 +4,7 @@ export interface Product {
     price: string;
     imageUrl: string[]; // todo -> should be imageUrls
     category: string;
+    customer: string;
     theme: string;
     sizes: string[];
 }
