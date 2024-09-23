@@ -28,7 +28,7 @@ function generateProducts(config, customer) {
         const product = {
             id: globalProductId++, // Use and increment globalProductId
             name: `${getRandomItem(categories)} - ${getRandomItem(themes)}`,
-            price: `₹${getRandomItem(prices)}`,
+            price: `${getRandomItem(prices)}`,
             imageUrl: selectedImages,
             category: getRandomItem(categories),
             customer: customer,
