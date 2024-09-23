@@ -8,7 +8,7 @@ export const filterProductBasedOnCustomer = (customerCategory: string, products:
             product.id,
             product.name,
             product.price,
-            product.imageUrl,
+            product.imageUrls,
             product.category,
             product.customer,
             product.theme,

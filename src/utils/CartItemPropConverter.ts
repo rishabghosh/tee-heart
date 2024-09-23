@@ -5,10 +5,10 @@ export const convertToCartProduct = (product: ProductExtended, size: string, qty
     return {
         id: product.id,
         name: product.name,
-        price: Number(product.price.slice(1)),
+        price: product.price,
         size: size,
         qty: qty,
         description: product.description,
-        imageUrl: product.imageUrl, //todo-> change imageUrl to imageUrls
+        imageUrl: product.imageUrls[0],
     }
 }

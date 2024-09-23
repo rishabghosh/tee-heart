@@ -3,8 +3,8 @@ import {Product} from "@/models/Product";
 export class ProductExtended implements Product {
     id: number;
     name: string;
-    price: string;
-    imageUrl: string[];
+    price: number;
+    imageUrls: string[];
     category: string;
     customer: string;
     theme: string;
@@ -18,11 +18,11 @@ export class ProductExtended implements Product {
     customerCareNumber: string = "1-800-123-4567";
     email: string = "support@mockedemail.com";
 
-    constructor(id: number, name: string, price: string, imageUrl: string[], category: string, customer: string, theme: string, sizes: string[]) {
+    constructor(id: number, name: string, price: number, imageUrls: string[], category: string, customer: string, theme: string, sizes: string[]) {
         this.id = id;
         this.name = name;
         this.price = price;
-        this.imageUrl = imageUrl;
+        this.imageUrls = imageUrls;
         this.category = category;
         this.customer = customer;
         this.theme = theme;

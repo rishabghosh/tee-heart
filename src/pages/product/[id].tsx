@@ -36,7 +36,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
 
     return (
         <div className={styles.productPage}>
-            <ImageGallery imageUrls={product.imageUrl} name={product.name} />
+            <ImageGallery imageUrls={product.imageUrls} name={product.name} />
             <div className={styles.detailsSection}>
                 <ProductInfo name={product.name} price={product.price} description={product.description} />
                 <SizeSelector sizes={product.sizes} selectedSize={selectedSize} onSelectSize={setSelectedSize} />

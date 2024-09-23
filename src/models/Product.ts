@@ -1,8 +1,8 @@
 export interface Product {
     id: number;
     name: string;
-    price: string;
-    imageUrl: string[]; // todo -> should be imageUrls
+    price: number;
+    imageUrls: string[];
     category: string;
     customer: string;
     theme: string;

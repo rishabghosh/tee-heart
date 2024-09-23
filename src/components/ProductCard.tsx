@@ -9,13 +9,11 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
-    console.log("product", JSON.stringify(product));
-
     return (
         <div className={styles.card}>
             <Link href={`/product/${product.id}`}>
                 <Image
-                    src={addDomain(product.imageUrl[0])}
+                    src={addDomain(product.imageUrls[0])}
                     alt={product.name}
                     className={styles.image}
                     width={500}
