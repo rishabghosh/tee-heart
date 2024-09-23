@@ -1,11 +1,11 @@
 import React from 'react';
 import CustomerCategory from '@/components/CustomerCategory';
 import products from "@/data/products.json";
+import {filterProductBasedOnCustomer} from "@/utils/filters";
 
 
 const Kids: React.FC = () => {
-    const kidsProducts = products.filter(product=> product.customer === 'kids');
-    return <CustomerCategory title="Kids's Collection" products={kidsProducts} />;
+    return <CustomerCategory title="Kid's Collection" products={filterProductBasedOnCustomer('kids', products)} />;
 };
 
 export default Kids;
