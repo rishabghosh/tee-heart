@@ -1,4 +1,3 @@
-// styles/NavBar.module.scss
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -7,6 +6,11 @@
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   flex-wrap: wrap; // Allow items to wrap in smaller screens
+
+  // Make the navbar sticky
+  position: sticky; // Use 'fixed' if you want it always visible
+  top: 0; // Stick to the top
+  z-index: 1000; // Ensure it stays above other content
 
   @media (max-width: 768px) {
     padding: 1rem; // Adjust padding for mobile
