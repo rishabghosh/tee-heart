@@ -1,0 +1,84 @@
+.mobileFilter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1000;
+  padding: 20px;
+  overflow-y: auto;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .closeButton {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  }
+
+  .filterContent {
+    margin-bottom: 20px;
+
+    h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+
+        input {
+          margin-right: 10px;
+        }
+
+        label {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .sizeOptions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      .sizeButton {
+        padding: 10px;
+        border: 1px solid #333;
+        cursor: pointer;
+        background-color: white;
+        transition: background-color 0.3s;
+
+        &.selectedSizeButton {
+          background-color: #333;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .applyButton {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
