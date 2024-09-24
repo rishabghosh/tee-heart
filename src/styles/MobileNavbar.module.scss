@@ -1,0 +1,58 @@
+.mobileNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; // For positioning slide menu
+  z-index: 1000;
+}
+
+.openButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.cart {
+  color: #555555;
+}
+
+.slideMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.choiceButton {
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+  border: none;
+  background: none;
+  color: #555555;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
