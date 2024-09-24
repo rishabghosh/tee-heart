@@ -49,16 +49,6 @@ const CustomerCategory: React.FC<CustomerCategoryProps> = ({ title, products }) 
         <div>
             <main className={styles.main}>
                 <div className={styles.layout}>
-                    {/* Filter button for mobile */}
-                    {isMobile && (
-                        <button
-                            className={styles.mobileFilterButton}
-                            onClick={openMobileFilter}
-                        >
-                            Filter
-                        </button>
-                    )}
-
                     {/* Conditionally render the FilterSidebar only on non-mobile screens */}
                     {!isMobile && (
                         <aside className={styles.sidebar}>
@@ -87,6 +77,16 @@ const CustomerCategory: React.FC<CustomerCategoryProps> = ({ title, products }) 
                     onClose={closeMobileFilter}
                     onFilter={handleFilteredProducts}
                 />
+            )}
+
+            {/* Mobile Filter button visible only on mobile */}
+            {isMobile && (
+                <button
+                    className={styles.mobileFilterButton}
+                    onClick={openMobileFilter}
+                >
+                    Filter
+                </button>
             )}
         </div>
     );

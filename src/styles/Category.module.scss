@@ -45,18 +45,24 @@
 }
 
 .mobileFilterButton {
-  display: none;
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f8f8f8; // Adjust color to match your design
+  border-top: 1px solid #ddd;
   font-size: 16px;
-  border-radius: 5px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-
-  @media (max-width: 768px) {
-    display: block;
-    margin: 10px auto;
-    width: 100%;
-  }
+  z-index: 100; // Ensure it's always on top
 }
+
+.mobileFilterButton:hover {
+  background-color: #eee;
+}
+
