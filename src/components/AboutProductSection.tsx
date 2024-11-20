@@ -1,4 +1,4 @@
-import styles from '@/styles/ProductDetails.module.scss';
+import styles from '@/styles/AboutProduct.module.scss';
 import {ProductExtended} from '@/models/ProductExtended';
 import {useState} from "react";
 
@@ -6,7 +6,7 @@ interface ProductDetailsSectionProps {
     product: ProductExtended;
 }
 
-const ProductDetailsSection: React.FC<ProductDetailsSectionProps> = ({product}) => {
+const AboutProductSection: React.FC<ProductDetailsSectionProps> = ({product}) => {
     const [isOpen, setIsOpen] = useState(true);
 
     const toggleContent = () => {
@@ -14,7 +14,7 @@ const ProductDetailsSection: React.FC<ProductDetailsSectionProps> = ({product}) 
     };
 
     return (
-        <div className={styles.productDetails}>
+        <div className={styles.aboutProduct}>
             <div className={styles.header} onClick={toggleContent}>
                 <h3>Product Details</h3>
                 <span className={styles["toggle-icon"]}>{isOpen ? '▲' : '▼'}</span>
@@ -45,4 +45,4 @@ const ProductDetailsSection: React.FC<ProductDetailsSectionProps> = ({product}) 
     );
 };
 
-export default ProductDetailsSection;
+export default AboutProductSection;

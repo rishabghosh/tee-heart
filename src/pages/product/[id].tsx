@@ -12,7 +12,7 @@ import SizeSelector from '@/components/shared/SizeSelector';
 import QuantitySelector from '@/components/shared/QuantitySelector';
 import ButtonsSection from '@/components/shared/ButtonsSection';
 import DeliveryDetails from '@/components/shared/DeliveryDetails';
-import ProductDetailsSection from '@/components/ProductDetailsSection';
+import AboutProductSection from '@/components/AboutProductSection';
 
 interface ProductDetailsProps {
     product: ProductExtended;
@@ -43,7 +43,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
                 <QuantitySelector quantity={quantity} setQuantity={setQuantity} />
                 <ButtonsSection handleAddToCart={handleAddToCart} wishlistDisabled={wishlistDisabled} />
                 <DeliveryDetails pincode={pincode} setPincode={setPincode} />
-                <ProductDetailsSection product={product} />
+                <AboutProductSection product={product} />
             </div>
         </div>
     );
