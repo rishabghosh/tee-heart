@@ -10,9 +10,9 @@ export class ProductExtended implements Product {
     theme: string;
     sizes: string[];
     description: string = "This is a high-quality product.";
-    material: string = "Cotton";
-    careInstructions: string = "Machine wash cold, tumble dry low.";
-    countryOfOrigin: string = "USA";
+    material: string = "Premium Heavy Gauge Fabric, 100% Organic cotton";
+    careInstructions: string = "Hand wash or machine wash";
+    countryOfOrigin: string = "India (and proud)";
     manufacturer: string = "Sample Manufacturer Inc.";
     manufacturerAddress: string = "1234 Manufacturer St, City, State, ZIP";
     customerCareNumber: string = "1-800-123-4567";
