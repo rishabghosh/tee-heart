@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
-import styles from '../styles/MobileNavBar.module.scss';
+import styles from '@/styles/MobileNavBar.module.scss';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/store/store';
 import SlideMenu from '@/components/shared/SlideMenu'; // Import the SlideMenu component
