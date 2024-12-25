@@ -1,49 +1,3 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  flex-wrap: wrap; // Allow items to wrap in smaller screens
-
-  // Make the navbar sticky
-  position: sticky; // Use 'fixed' if you want it always visible
-  top: 0; // Stick to the top
-  z-index: 1000; // Ensure it stays above other content
-
-  @media (max-width: 768px) {
-    padding: 1rem; // Adjust padding for mobile
-    justify-content: center; // Center items
-  }
-}
-
-.logo a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #333333;
-}
-
-.navLinks {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-
-  @media (max-width: 768px) {
-    display: block; // Stack links vertically on small screens
-    margin-top: 1rem;
-  }
-}
-
-.navLinks li a {
-  color: #555555;
-  transition: color 0.3s ease;
-
-  &:hover {
-    color: #000000;
-  }
-}
-
 .mobileNavbar {
   display: flex;
   justify-content: space-between;
@@ -102,4 +56,3 @@
   background-color: rgba(0, 0, 0, 0.2);
   color: #000000;
 }
-
