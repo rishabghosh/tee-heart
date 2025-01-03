@@ -82,6 +82,20 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
+
+    .originalPrice {
+      text-decoration: line-through;
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.7);
+      margin-left: 10px;
+    }
+  }
+
+  .discount {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px 0 0;
+    color: #ffeb3b;
   }
 }
 

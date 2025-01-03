@@ -9,6 +9,17 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+    const { price, sellingPrice } = product;
+    const hasDiscount = sellingPrice < price;
+    const discountPercentage = hasDiscount
+        ? Math.round(((price - sellingPrice) / price) * 100)
+        : 0;
+
+    // Render nothing if there's no discount
+    if (!hasDiscount) {
+        return null;
+    }
+
     return (
         <div className={styles.card}>
             <Link href={`/product/${product.id}`} className={styles.link}>
@@ -20,7 +31,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                         width={500}
                         height={500}
                     />
-                    {/*<button className={styles.wishlistButton}>❤️</button>*/}
                 </div>
                 <div className={styles.details}>
                     <h3 className={styles.name}>{product.name}</h3>
@@ -28,7 +38,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 </div>
             </Link>
             <div className={styles.priceContainer}>
-                <p className={styles.price}>₹ {product.price}</p>
+                <p className={styles.price}>
+                    ₹ {sellingPrice}{" "}
+                    <span className={styles.originalPrice}>₹ {price}</span>
+                </p>
+                <p className={styles.discount}>{discountPercentage}% OFF</p>
             </div>
         </div>
     );
