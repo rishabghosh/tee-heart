@@ -1,91 +1,109 @@
 .card {
+  width: 100%; // Set appropriate width for container responsiveness
+  max-width: 300px; // Max width for consistency
   border: 1px solid #eaeaea;
-  border-radius: 8px;
-  padding: 1rem;
-  text-align: center;
-  transition: box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-bottom: 1px solid #eaeaea;
 
   .image {
     width: 100%;
-    height: auto; //maintain aspect ratio
-    max-height: 200px; //prevent overflow
-    object-fit: contain; //ensure full image visibility
-    border-radius: 4px;
+    height: 100%;
+    object-fit: cover;
   }
 
-  .name {
-    margin: 0.5rem 0;
-    font-size: 1.2rem;
-    color: #333333;
-  }
-
-  .price {
-    color: #888888;
-    margin-bottom: 1rem;
-  }
-
-  .button {
-    background-color: #ff6347;
-    color: #ffffff;
+  .wishlistButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.8);
     border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
     cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: #ff4500;
+      background: rgba(255, 255, 255, 1);
     }
   }
 }
 
-// Media Queries
-@media (max-width: 768px) {
-  .card {
-    width: 48%; // Two cards per row on tablets and small devices
-  }
-
-  .image {
-    max-height: 100px; // Reduce image height further for small screens
-  }
+.details {
+  padding: 15px;
+  text-align: center;
 
   .name {
-    font-size: 0.8rem; // Smaller font for names
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+  }
+
+  .category {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px 0;
   }
 
   .price {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 48%; // Two cards per row on smaller devices
   }
 
-  .button {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.8rem;
+  .imageContainer {
+    height: 200px;
+  }
+
+  .details .name,
+  .details .category,
+  .details .price {
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
   .card {
-    width: 48%; // Maintain two cards per row on mobile devices
+    max-width: 100%; // Single column for extra small devices
   }
 
-  .image {
-    max-height: 80px; // Minimize image height for extra small screens
+  .imageContainer {
+    height: 150px;
   }
 
-  .name {
-    font-size: 0.7rem;
-  }
-
-  .price {
-    font-size: 0.6rem;
-  }
-
-  .button {
-    padding: 0.3rem 0.6rem;
-    font-size: 0.7rem;
+  .details .name,
+  .details .category,
+  .details .price {
+    font-size: 0.8rem;
   }
 }
