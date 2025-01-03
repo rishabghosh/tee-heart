@@ -42,3 +42,50 @@
     }
   }
 }
+
+// Media Queries
+@media (max-width: 768px) {
+  .card {
+    width: 48%; // Two cards per row on tablets and small devices
+  }
+
+  .image {
+    max-height: 100px; // Reduce image height further for small screens
+  }
+
+  .name {
+    font-size: 0.8rem; // Smaller font for names
+  }
+
+  .price {
+    font-size: 0.7rem;
+  }
+
+  .button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 48%; // Maintain two cards per row on mobile devices
+  }
+
+  .image {
+    max-height: 80px; // Minimize image height for extra small screens
+  }
+
+  .name {
+    font-size: 0.7rem;
+  }
+
+  .price {
+    font-size: 0.6rem;
+  }
+
+  .button {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+  }
+}

@@ -66,3 +66,12 @@
   background-color: #eee;
 }
 
+@media (max-width: 768px) { /* Adjust the max-width value as needed for your mobile breakpoint */
+  .grid {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 2%; /* Space between cards */
+    justify-content: space-between;
+  }
+}
+
