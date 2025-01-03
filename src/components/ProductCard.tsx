@@ -24,10 +24,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 </div>
                 <div className={styles.details}>
                     <h3 className={styles.name}>{product.name}</h3>
-                    <p className={styles.category}>Oversized Tshirt</p> {/* Add category dynamically if applicable */}
-                    <p className={styles.price}>₹ {product.price}</p>
+                    <p className={styles.category}>Oversized Tshirt</p>
                 </div>
             </Link>
+            <div className={styles.priceContainer}>
+                <p className={styles.price}>₹ {product.price}</p>
+            </div>
         </div>
     );
 };
