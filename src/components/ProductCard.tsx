@@ -24,7 +24,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 </div>
                 <div className={styles.details}>
                     <h3 className={styles.name}>{product.name}</h3>
-                    <p className={styles.category}>Oversized Tshirt</p>
+                    <p className={styles.category}>{product.category}</p>
                 </div>
             </Link>
             <div className={styles.priceContainer}>
