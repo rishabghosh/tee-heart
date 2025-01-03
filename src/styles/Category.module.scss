@@ -42,6 +42,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
+  justify-content: center;
 }
 
 .mobileFilterButton {
@@ -72,6 +73,9 @@
     flex-wrap: wrap; /* Allow wrapping of cards */
     gap: 2%; /* Space between cards */
     justify-content: space-between;
+
+    grid-template-columns: repeat(2, 1fr); // Two columns for tablets and mobile
+    gap: 10px;
   }
 }
 
