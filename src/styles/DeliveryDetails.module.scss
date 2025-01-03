@@ -1,0 +1,33 @@
+.deliveryDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.deliveryInputs {
+  display: flex;
+  gap: 10px;
+  //background: blue;
+  width: 30%;
+  max-width: 300px;
+}
+
+.pincodeInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.checkPincodeButton {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #e64e2b;
+  }
+}
