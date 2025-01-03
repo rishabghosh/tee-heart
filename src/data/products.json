@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Oversized T-Shirts - Scooby-Doo",
     "price": 499,
-    "promotions": ["DIS20"],
+    "promotions": [],
     "imageUrls": [
       "/images/men/1724522113_8810514.jpg",
       "/images/men/1710397018_6320330.jpg"
@@ -23,7 +23,7 @@
     "id": 2,
     "name": "Blazers - Star Wars",
     "price": 499,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1725030116_1015977.jpg",
       "/images/men/1718348893_6177751.jpg",
@@ -44,7 +44,7 @@
     "id": 3,
     "name": "Oversized T-Shirts - X-Men",
     "price": 999,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1720854016_8385177.jpg",
       "/images/men/1723879971_7411847.jpg",
@@ -68,7 +68,7 @@
     "id": 4,
     "name": "Sports T-Shirts - Wonder Woman",
     "price": 699,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1694604680_6504644.jpg",
       "/images/men/1713003313_6892678.jpg",
@@ -92,7 +92,7 @@
     "id": 5,
     "name": "Hoodies - Frozen",
     "price": 499,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1726223465_1067140.jpg",
       "/images/men/1724306611_5259468.jpg",
@@ -114,7 +114,7 @@
     "id": 6,
     "name": "Hoodies - Mickey Mouse",
     "price": 499,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1715448110_2009250.jpg",
       "/images/men/1700136035_6650733.jpg",
@@ -137,7 +137,7 @@
     "id": 7,
     "name": "Hoodies - Frozen",
     "price": 1299,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1710866991_7254326.jpg",
       "/images/men/1711184285_3952916.jpg",
@@ -157,7 +157,7 @@
     "id": 8,
     "name": "Hoodies - Rick and Morty",
     "price": 499,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1698666748_7849714.jpg",
       "/images/men/1709992546_3665916.jpg",
@@ -176,7 +176,7 @@
     "id": 9,
     "name": "T-Shirts - Ironman",
     "price": 699,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1710586236_4798900.jpg",
       "/images/men/1717405288_9956003.jpg",
@@ -199,7 +199,7 @@
     "id": 10,
     "name": "Denim Jackets - Captain Marvel",
     "price": 499,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1715489486_6482248.jpg",
       "/images/men/1705148924_7673603.jpg",
@@ -218,7 +218,7 @@
     "id": 11,
     "name": "Sweatshirts - Breaking Bad",
     "price": 1299,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1702469431_1100072.jpg",
       "/images/men/1690357179_4120492.jpg",
@@ -239,7 +239,7 @@
     "id": 12,
     "name": "Shirts - Marvel",
     "price": 1299,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1723622433_5124467.jpg",
       "/images/men/1716890936_5507841.jpg",
@@ -260,7 +260,7 @@
     "id": 13,
     "name": "T-Shirts - Flash",
     "price": 499,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1683456527_5372333.jpg",
       "/images/men/1667564471_9335742.jpg"
@@ -278,7 +278,7 @@
     "id": 14,
     "name": "Blazers - Brooklyn Nine-Nine",
     "price": 999,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1706171769_1845895.jpg",
       "/images/men/1718191125_2047107.jpg",
@@ -302,7 +302,7 @@
     "id": 15,
     "name": "Jackets - Looney Tunes",
     "price": 999,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1711453957_2006718.jpg",
       "/images/men/1724842621_9269362.jpg",
@@ -325,7 +325,7 @@
     "id": 16,
     "name": "Oversized T-Shirts - Captain Marvel",
     "price": 999,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1719678720_9935007.jpg",
       "/images/men/1711731657_5863675.jpg",
@@ -345,7 +345,7 @@
     "id": 17,
     "name": "Blazers - Peanuts",
     "price": 699,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1710916150_9927959.jpg",
       "/images/men/1721887066_2455892.jpg",
@@ -367,7 +367,7 @@
     "id": 18,
     "name": "Sports T-Shirts - Thor",
     "price": 499,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1720697381_9492918.jpg",
       "/images/men/1710310480_6309752.jpg"
@@ -387,7 +387,7 @@
     "id": 19,
     "name": "Sports T-Shirts - Marvel",
     "price": 1299,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1711000745_3308496.jpg",
       "/images/men/1711016174_7275696.jpg"
@@ -405,7 +405,7 @@
     "id": 20,
     "name": "Denim Jackets - Frozen",
     "price": 999,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1726315197_8593573.jpg",
       "/images/men/1674111434_1679277.jpg",
@@ -426,7 +426,7 @@
     "id": 21,
     "name": "Jackets - Brooklyn Nine-Nine",
     "price": 999,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/men/1724518884_2950024.jpg",
       "/images/men/1710331595_6002173.jpg",
@@ -4275,7 +4275,7 @@
     "id": 199,
     "name": "Skirts - Gossip Girl",
     "price": 1899,
-    "promotions": ["DIS20"],
+    "promotions": [],
     "imageUrls": [
       "/images/women/1702626620_8046319.jpg",
       "/images/women/1718090262_2656214.jpg",
@@ -4294,7 +4294,7 @@
     "id": 200,
     "name": "Jackets - Frozen",
     "price": 599,
-    "promotions":  ["DIS20"],
+    "promotions":  [],
     "imageUrls": [
       "/images/women/1714666892_5481233.jpg",
       "/images/women/1692686335_8253370.jpg",
