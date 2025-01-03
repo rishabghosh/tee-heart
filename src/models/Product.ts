@@ -7,4 +7,5 @@ export interface Product {
     customer: string;
     theme: string;
     sizes: string[];
+    promotions: string[]
 }

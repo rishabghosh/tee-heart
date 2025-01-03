@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Oversized T-Shirts - Scooby-Doo",
     "price": 499,
+    "promotions": ["DIS20"],
     "imageUrls": [
       "/images/men/1724522113_8810514.jpg",
       "/images/men/1710397018_6320330.jpg"
@@ -22,6 +23,7 @@
     "id": 2,
     "name": "Blazers - Star Wars",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1725030116_1015977.jpg",
       "/images/men/1718348893_6177751.jpg",
@@ -42,6 +44,7 @@
     "id": 3,
     "name": "Oversized T-Shirts - X-Men",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1720854016_8385177.jpg",
       "/images/men/1723879971_7411847.jpg",
@@ -65,6 +68,7 @@
     "id": 4,
     "name": "Sports T-Shirts - Wonder Woman",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1694604680_6504644.jpg",
       "/images/men/1713003313_6892678.jpg",
@@ -88,6 +92,7 @@
     "id": 5,
     "name": "Hoodies - Frozen",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1726223465_1067140.jpg",
       "/images/men/1724306611_5259468.jpg",
@@ -109,6 +114,7 @@
     "id": 6,
     "name": "Hoodies - Mickey Mouse",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1715448110_2009250.jpg",
       "/images/men/1700136035_6650733.jpg",
@@ -131,6 +137,7 @@
     "id": 7,
     "name": "Hoodies - Frozen",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1710866991_7254326.jpg",
       "/images/men/1711184285_3952916.jpg",
@@ -150,6 +157,7 @@
     "id": 8,
     "name": "Hoodies - Rick and Morty",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1698666748_7849714.jpg",
       "/images/men/1709992546_3665916.jpg",
@@ -168,6 +176,7 @@
     "id": 9,
     "name": "T-Shirts - Ironman",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1710586236_4798900.jpg",
       "/images/men/1717405288_9956003.jpg",
@@ -190,6 +199,7 @@
     "id": 10,
     "name": "Denim Jackets - Captain Marvel",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1715489486_6482248.jpg",
       "/images/men/1705148924_7673603.jpg",
@@ -208,6 +218,7 @@
     "id": 11,
     "name": "Sweatshirts - Breaking Bad",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1702469431_1100072.jpg",
       "/images/men/1690357179_4120492.jpg",
@@ -228,6 +239,7 @@
     "id": 12,
     "name": "Shirts - Marvel",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1723622433_5124467.jpg",
       "/images/men/1716890936_5507841.jpg",
@@ -248,6 +260,7 @@
     "id": 13,
     "name": "T-Shirts - Flash",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1683456527_5372333.jpg",
       "/images/men/1667564471_9335742.jpg"
@@ -265,6 +278,7 @@
     "id": 14,
     "name": "Blazers - Brooklyn Nine-Nine",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1706171769_1845895.jpg",
       "/images/men/1718191125_2047107.jpg",
@@ -288,6 +302,7 @@
     "id": 15,
     "name": "Jackets - Looney Tunes",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711453957_2006718.jpg",
       "/images/men/1724842621_9269362.jpg",
@@ -310,6 +325,7 @@
     "id": 16,
     "name": "Oversized T-Shirts - Captain Marvel",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1719678720_9935007.jpg",
       "/images/men/1711731657_5863675.jpg",
@@ -329,6 +345,7 @@
     "id": 17,
     "name": "Blazers - Peanuts",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1710916150_9927959.jpg",
       "/images/men/1721887066_2455892.jpg",
@@ -350,6 +367,7 @@
     "id": 18,
     "name": "Sports T-Shirts - Thor",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1720697381_9492918.jpg",
       "/images/men/1710310480_6309752.jpg"
@@ -369,6 +387,7 @@
     "id": 19,
     "name": "Sports T-Shirts - Marvel",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711000745_3308496.jpg",
       "/images/men/1711016174_7275696.jpg"
@@ -386,6 +405,7 @@
     "id": 20,
     "name": "Denim Jackets - Frozen",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1726315197_8593573.jpg",
       "/images/men/1674111434_1679277.jpg",
@@ -406,6 +426,7 @@
     "id": 21,
     "name": "Jackets - Brooklyn Nine-Nine",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1724518884_2950024.jpg",
       "/images/men/1710331595_6002173.jpg",
@@ -429,6 +450,7 @@
     "id": 22,
     "name": "Jackets - Brooklyn Nine-Nine",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1721887112_8593937.jpg",
       "/images/men/1716651213_1150899.jpg",
@@ -450,6 +472,7 @@
     "id": 23,
     "name": "Oversized T-Shirts - Rick and Morty",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1720803959_7925553.jpg",
       "/images/men/1711131970_6689422.jpg",
@@ -471,6 +494,7 @@
     "id": 24,
     "name": "Sports T-Shirts - Wonder Woman",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1692775510_3876024.jpg",
       "/images/men/1710916228_7568710.jpg",
@@ -491,6 +515,7 @@
     "id": 25,
     "name": "Oversized T-Shirts - Peanuts",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711132438_3055785.jpg",
       "/images/men/1713943206_3378857.jpg",
@@ -514,6 +539,7 @@
     "id": 26,
     "name": "Polo Shirts - Captain Marvel",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1677592790_9874114.jpg",
       "/images/men/1724842518_2162714.jpg",
@@ -535,6 +561,7 @@
     "id": 27,
     "name": "Polo Shirts - DC Comics",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1720202761_4023152.jpg",
       "/images/men/1692687293_8923180.jpg",
@@ -556,6 +583,7 @@
     "id": 28,
     "name": "Jackets - Captain America",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711031457_3729184.jpg",
       "/images/men/1724689692_8476074.jpg"
@@ -573,6 +601,7 @@
     "id": 29,
     "name": "Hoodies - Harry Potter",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1717175780_4811692.jpg",
       "/images/men/1687421163_3808317.jpg"
@@ -592,6 +621,7 @@
     "id": 30,
     "name": "Hoodies - Marvel",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1690348211_8238855.jpg",
       "/images/men/1710853056_8904479.jpg",
@@ -613,6 +643,7 @@
     "id": 31,
     "name": "Shirts - Dragon Ball Z",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1710576543_7166793.jpg",
       "/images/men/1722004334_5839977.jpg",
@@ -633,6 +664,7 @@
     "id": 32,
     "name": "Hoodies - Justice League",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1713001945_4383635.jpg",
       "/images/men/1711000645_6342789.jpg",
@@ -658,6 +690,7 @@
     "id": 33,
     "name": "Oversized T-Shirts - Spongebob",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1721128657_2677232.jpg",
       "/images/men/1725044801_7231475.jpg",
@@ -680,6 +713,7 @@
     "id": 34,
     "name": "Shirts - Garfield",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1716903410_4888337.jpg",
       "/images/men/1711433489_9964069.jpg",
@@ -700,6 +734,7 @@
     "id": 35,
     "name": "Hoodies - Batman",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711001303_8120898.jpg",
       "/images/men/1718451968_1369732.jpg",
@@ -720,6 +755,7 @@
     "id": 36,
     "name": "Oversized T-Shirts - Dragon Ball Z",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1725965973_1485247.jpg",
       "/images/men/1725602347_4997529.jpg",
@@ -741,6 +777,7 @@
     "id": 37,
     "name": "Sports T-Shirts - One Piece",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1708177528_4179455.jpg",
       "/images/men/1720854322_2159174.jpg",
@@ -764,6 +801,7 @@
     "id": 38,
     "name": "Blazers - Friends",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1713003272_8970668.jpg",
       "/images/men/1724848655_7306988.jpg"
@@ -781,6 +819,7 @@
     "id": 39,
     "name": "T-Shirts - Wonder Woman",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711526981_5941844.jpg",
       "/images/men/1710915045_6416807.jpg",
@@ -805,6 +844,7 @@
     "id": 40,
     "name": "Oversized T-Shirts - Wolverine",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1717405288_1038530.jpg",
       "/images/men/1712382545_5130478.jpg",
@@ -825,6 +865,7 @@
     "id": 41,
     "name": "Shirts - The Office",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711458182_9517041.jpg",
       "/images/men/1725371538_9923478.jpg",
@@ -844,6 +885,7 @@
     "id": 42,
     "name": "Blazers - Family Guy",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1696059413_7762975.jpg",
       "/images/men/1723665789_1941660.jpg"
@@ -861,6 +903,7 @@
     "id": 43,
     "name": "Hoodies - Frozen",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1710926409_1118147.jpg",
       "/images/men/1710603466_9345429.jpg",
@@ -882,6 +925,7 @@
     "id": 44,
     "name": "Oversized T-Shirts - Wonder Woman",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1697866973_7138800.jpg",
       "/images/men/1705122402_1010853.jpg",
@@ -903,6 +947,7 @@
     "id": 45,
     "name": "Sports T-Shirts - Doctor Strange",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1710915476_6505693.jpg",
       "/images/men/1690959969_9635955.jpg",
@@ -925,6 +970,7 @@
     "id": 46,
     "name": "Sweatshirts - Justice League",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1719044662_2806410.jpg",
       "/images/men/1710395935_6357875.jpg",
@@ -947,6 +993,7 @@
     "id": 47,
     "name": "T-Shirts - Dragon Ball Z",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1709204833_5789678.jpg",
       "/images/men/1720854185_8048680.jpg",
@@ -965,6 +1012,7 @@
     "id": 48,
     "name": "Shirts - Breaking Bad",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1706888367_3396896.jpg",
       "/images/men/1726223465_9223464.jpg",
@@ -986,6 +1034,7 @@
     "id": 49,
     "name": "Sports T-Shirts - Peanuts",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1720854669_3448644.jpg",
       "/images/men/1722931559_2329008.jpg",
@@ -1006,6 +1055,7 @@
     "id": 50,
     "name": "Polo Shirts - Marvel",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1726136070_6685371.jpg",
       "/images/men/1711090501_2121411.jpg"
@@ -1023,6 +1073,7 @@
     "id": 51,
     "name": "Shirts - Friends",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1724772798_2461278.jpg",
       "/images/men/1711132796_6936887.jpg",
@@ -1045,6 +1096,7 @@
     "id": 52,
     "name": "Sports T-Shirts - Simpsons",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1718983574_2794715.jpg",
       "/images/men/1715427978_3221061.jpg",
@@ -1067,6 +1119,7 @@
     "id": 53,
     "name": "Shirts - Tom and Jerry",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1721045821_3634642.jpg",
       "/images/men/1725100161_7812955.jpg"
@@ -1084,6 +1137,7 @@
     "id": 54,
     "name": "Shirts - Flash",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1709377296_9372967.jpg",
       "/images/men/1711453999_7722707.jpg",
@@ -1104,6 +1158,7 @@
     "id": 55,
     "name": "T-Shirts - Ironman",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1708413548_3007889.jpg",
       "/images/men/1689146646_8609826.jpg",
@@ -1127,6 +1182,7 @@
     "id": 56,
     "name": "T-Shirts - Dragon Ball Z",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1692940166_2677951.jpg",
       "/images/men/1719035374_6132078.jpg",
@@ -1147,6 +1203,7 @@
     "id": 57,
     "name": "Hoodies - Toy Story",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711457733_7600763.jpg",
       "/images/men/1722012398_6887929.jpg",
@@ -1165,6 +1222,7 @@
     "id": 58,
     "name": "Hoodies - Simpsons",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711034761_2658054.jpg",
       "/images/men/1711190594_9051315.jpg",
@@ -1184,6 +1242,7 @@
     "id": 59,
     "name": "Polo Shirts - Looney Tunes",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711113553_9522980.jpg",
       "/images/men/1724305573_4400439.jpg",
@@ -1204,6 +1263,7 @@
     "id": 60,
     "name": "Shirts - Dragon Ball Z",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1724305526_7095054.jpg",
       "/images/men/1688041418_8246583.jpg"
@@ -1221,6 +1281,7 @@
     "id": 61,
     "name": "Polo Shirts - DC Comics",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1721029861_2727869.jpg",
       "/images/men/1712382545_4009712.jpg",
@@ -1239,6 +1300,7 @@
     "id": 62,
     "name": "Denim Jackets - Guardians of the Galaxy",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1715449812_6546230.jpg",
       "/images/men/1716815301_8638072.jpg",
@@ -1259,6 +1321,7 @@
     "id": 63,
     "name": "Polo Shirts - Aquaman",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1722692443_1267802.jpg",
       "/images/men/1723294837_4713820.jpg",
@@ -1279,6 +1342,7 @@
     "id": 64,
     "name": "Blazers - Donald Duck",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711608307_3110020.jpg",
       "/images/men/1713958430_8766442.jpg"
@@ -1296,6 +1360,7 @@
     "id": 65,
     "name": "Jackets - Toy Story",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1725429035_9898154.jpg",
       "/images/men/1709992546_3699193.jpg",
@@ -1319,6 +1384,7 @@
     "id": 66,
     "name": "Blazers - Peanuts",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1720173402_1759076.jpg",
       "/images/men/1721108533_7016753.jpg",
@@ -1338,6 +1404,7 @@
     "id": 67,
     "name": "Shirts - Captain Marvel",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1694589005_2703395.jpg",
       "/images/men/1709964603_3068671.jpg",
@@ -1360,6 +1427,7 @@
     "id": 68,
     "name": "Polo Shirts - Naruto",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1709988392_6778142.jpg",
       "/images/men/1721029875_6209064.jpg",
@@ -1381,6 +1449,7 @@
     "id": 69,
     "name": "Shirts - Thor",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1693906467_4954197.jpg",
       "/images/men/1713507666_3571489.jpg",
@@ -1399,6 +1468,7 @@
     "id": 70,
     "name": "Polo Shirts - Game of Thrones",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1726223269_6790740.jpg",
       "/images/men/1687413967_4115024.jpg",
@@ -1422,6 +1492,7 @@
     "id": 71,
     "name": "Oversized T-Shirts - Justice League",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1725953673_5271667.jpg",
       "/images/men/1719035296_3984150.jpg",
@@ -1446,6 +1517,7 @@
     "id": 72,
     "name": "Sweatshirts - The Office",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711192024_8229183.jpg",
       "/images/men/1691471112_8946937.jpg",
@@ -1466,6 +1538,7 @@
     "id": 73,
     "name": "Oversized T-Shirts - Friends",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1716903864_2099459.jpg",
       "/images/men/1723665789_7191261.jpg",
@@ -1485,6 +1558,7 @@
     "id": 74,
     "name": "Jackets - Naruto",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1668254021_8395929.jpg",
       "/images/men/1711451782_8499851.jpg",
@@ -1507,6 +1581,7 @@
     "id": 75,
     "name": "Polo Shirts - Game of Thrones",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1719044712_5086156.jpg",
       "/images/men/1725019961_7050293.jpg",
@@ -1530,6 +1605,7 @@
     "id": 76,
     "name": "Sports T-Shirts - The Office",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1723870804_2260718.jpg",
       "/images/men/1719035251_1445034.jpg",
@@ -1550,6 +1626,7 @@
     "id": 77,
     "name": "Jackets - The Office",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1691841992_2455199.jpg",
       "/images/men/1711191229_2214929.jpg",
@@ -1573,6 +1650,7 @@
     "id": 78,
     "name": "Denim Jackets - Guardians of the Galaxy",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1718191374_9787081.jpg",
       "/images/men/1726310010_6396034.jpg",
@@ -1594,6 +1672,7 @@
     "id": 79,
     "name": "Blazers - Avengers",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1715448110_1443849.jpg",
       "/images/men/1670674162_5218304.jpg"
@@ -1611,6 +1690,7 @@
     "id": 80,
     "name": "Denim Jackets - Kung Fu Panda",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1721456901_2319952.jpg",
       "/images/men/1715670226_5380813.jpg",
@@ -1633,6 +1713,7 @@
     "id": 81,
     "name": "Sweatshirts - Family Guy",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1713002475_2968100.jpg",
       "/images/men/1725101192_4002900.jpg",
@@ -1656,6 +1737,7 @@
     "id": 82,
     "name": "T-Shirts - Harry Potter",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1711001602_2122346.jpg",
       "/images/men/1692774726_1127431.jpg",
@@ -1676,6 +1758,7 @@
     "id": 83,
     "name": "Hoodies - Scooby-Doo",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1724305438_3466616.jpg",
       "/images/men/1713781089_4374688.jpg",
@@ -1695,6 +1778,7 @@
     "id": 84,
     "name": "Jackets - Black Panther",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1710827414_8264288.jpg",
       "/images/men/1716815688_6740624.jpg"
@@ -1712,6 +1796,7 @@
     "id": 85,
     "name": "Blazers - Harry Potter",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1686649773_4123429.jpg",
       "/images/men/1720189744_5287918.jpg",
@@ -1732,6 +1817,7 @@
     "id": 86,
     "name": "Denim Jackets - Scooby-Doo",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1723918278_9925657.jpg",
       "/images/men/1692771647_5011439.jpg",
@@ -1752,6 +1838,7 @@
     "id": 87,
     "name": "Oversized T-Shirts - Doctor Strange",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1722068446_5793694.jpg",
       "/images/men/1723665973_1463288.jpg",
@@ -1771,6 +1858,7 @@
     "id": 88,
     "name": "Sweatshirts - Avengers",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1692774532_2690978.jpg",
       "/images/men/1721815002_4681487.jpg",
@@ -1793,6 +1881,7 @@
     "id": 89,
     "name": "Shirts - Parks and Recreation",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1724132186_5870277.jpg",
       "/images/men/1711190523_9000280.jpg",
@@ -1815,6 +1904,7 @@
     "id": 90,
     "name": "Hoodies - Family Guy",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1718191581_1959569.jpg",
       "/images/men/1723962915_5326947.jpg",
@@ -1833,6 +1923,7 @@
     "id": 91,
     "name": "Denim Jackets - Looney Tunes",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1719647513_9749685.jpg",
       "/images/men/1717175780_1352174.jpg",
@@ -1855,6 +1946,7 @@
     "id": 92,
     "name": "Jackets - Donald Duck",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1690278676_5592377.jpg",
       "/images/men/1716903193_2857024.jpg"
@@ -1872,6 +1964,7 @@
     "id": 93,
     "name": "Sweatshirts - One Piece",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1718191125_4898360.jpg",
       "/images/men/1710330280_7794860.jpg"
@@ -1889,6 +1982,7 @@
     "id": 94,
     "name": "Sports T-Shirts - Family Guy",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1725372359_6830093.jpg",
       "/images/men/1711731813_5924047.jpg",
@@ -1914,6 +2008,7 @@
     "id": 95,
     "name": "Denim Jackets - Aquaman",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1716392735_9119678.jpg",
       "/images/men/1713258745_8934097.jpg"
@@ -1931,6 +2026,7 @@
     "id": 96,
     "name": "Oversized T-Shirts - Aquaman",
     "price": 499,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1713943281_3000776.jpg",
       "/images/men/1721411572_3210026.jpg"
@@ -1950,6 +2046,7 @@
     "id": 97,
     "name": "Blazers - The Simpsons",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1718953582_7994799.jpg",
       "/images/men/1711004186_1580212.jpg",
@@ -1974,6 +2071,7 @@
     "id": 98,
     "name": "Denim Jackets - Tom and Jerry",
     "price": 699,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1726321336_5155534.jpg",
       "/images/men/1721457034_4593166.jpg",
@@ -1997,6 +2095,7 @@
     "id": 99,
     "name": "Shirts - Garfield",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1713627992_3284721.jpg",
       "/images/men/1720618568_3478771.jpg",
@@ -2015,6 +2114,7 @@
     "id": 100,
     "name": "T-Shirts - Donald Duck",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/men/1717859112_6761937.jpg",
       "/images/men/1690023780_7737579.jpg",
@@ -2034,6 +2134,7 @@
     "id": 101,
     "name": "Cardigans - Selena Gomez",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714730619_8741382.jpg",
       "/images/women/1682780961_1910409.jpg",
@@ -2053,6 +2154,7 @@
     "id": 102,
     "name": "Jeans - Billie Eilish",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1695275834_4710008.jpg",
       "/images/women/1714985668_8106925.jpg",
@@ -2077,6 +2179,7 @@
     "id": 103,
     "name": "Sweaters - Hannah Montana",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1717755208_8527366.jpg",
       "/images/women/1713171494_6920732.jpg",
@@ -2095,6 +2198,7 @@
     "id": 104,
     "name": "Leggings - The Kardashians",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1720848842_6434761.jpg",
       "/images/women/1712037433_3871890.jpg",
@@ -2119,6 +2223,7 @@
     "id": 105,
     "name": "Jeans - Stranger Things",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1712039704_1529907.jpg",
       "/images/women/1713414045_2937708.jpg",
@@ -2137,6 +2242,7 @@
     "id": 106,
     "name": "Dresses - Cinderella",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714815836_4652350.jpg",
       "/images/women/1721907823_4591560.jpg",
@@ -2156,6 +2262,7 @@
     "id": 107,
     "name": "Shorts - The Kardashians",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1654317291_5396575.jpg",
       "/images/women/1723456921_9686904.jpg",
@@ -2179,6 +2286,7 @@
     "id": 108,
     "name": "Blazers - Legally Blonde",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1687953950_1958296.jpg",
       "/images/women/1719499115_3805983.jpg",
@@ -2201,6 +2309,7 @@
     "id": 109,
     "name": "Formal Shirts - Lady Gaga",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714462523_7197340.jpg",
       "/images/women/1708331137_5662195.jpg"
@@ -2218,6 +2327,7 @@
     "id": 110,
     "name": "Coats - Moana",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1709349669_8181368.jpg",
       "/images/women/1712037628_6874431.jpg",
@@ -2237,6 +2347,7 @@
     "id": 111,
     "name": "Cardigans - Billie Eilish",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1717060358_8753639.jpg",
       "/images/women/1722956389_9930583.jpg",
@@ -2260,6 +2371,7 @@
     "id": 112,
     "name": "Cardigans - Gossip Girl",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714115282_2839241.jpg",
       "/images/women/1706181458_9255821.jpg",
@@ -2279,6 +2391,7 @@
     "id": 113,
     "name": "Dresses - The Hunger Games",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714387298_3060375.jpg",
       "/images/women/1715684768_2035572.jpg",
@@ -2301,6 +2414,7 @@
     "id": 114,
     "name": "Leggings - The Devil Wears Prada",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1711530537_9734799.jpg",
       "/images/women/1717493072_7314502.jpg",
@@ -2321,6 +2435,7 @@
     "id": 115,
     "name": "Tops - Beyoncé",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1719309704_2913810.jpg",
       "/images/women/1714716779_2568661.jpg",
@@ -2344,6 +2459,7 @@
     "id": 116,
     "name": "Blazers - Lady Gaga",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1710520501_1061394.jpg",
       "/images/women/1715060956_1941133.jpg",
@@ -2365,6 +2481,7 @@
     "id": 117,
     "name": "Formal Shirts - Barbie",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1716368896_7759326.jpg",
       "/images/women/1711545202_1584355.jpg",
@@ -2383,6 +2500,7 @@
     "id": 118,
     "name": "Tops - Emily in Paris",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1718000239_9329222.jpg",
       "/images/women/1712997976_7693068.jpg",
@@ -2403,6 +2521,7 @@
     "id": 119,
     "name": "Skirts - Grease",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1725010992_7375741.jpg",
       "/images/women/1708930110_3489772.jpg",
@@ -2421,6 +2540,7 @@
     "id": 120,
     "name": "Dresses - Gossip Girl",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714046861_5447689.jpg",
       "/images/women/1721367660_1460460.jpg",
@@ -2441,6 +2561,7 @@
     "id": 121,
     "name": "Dresses - Frozen",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1712898082_9157943.jpg",
       "/images/women/1719649936_1237197.jpg"
@@ -2458,6 +2579,7 @@
     "id": 122,
     "name": "Skirts - The Crown",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714715082_4328281.jpg",
       "/images/women/1716791268_2080381.jpg",
@@ -2478,6 +2600,7 @@
     "id": 123,
     "name": "Jeans - Gilmore Girls",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1721708766_8610467.jpg",
       "/images/women/1714721266_2998427.jpg",
@@ -2501,6 +2624,7 @@
     "id": 124,
     "name": "Shorts - Zendaya",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1722588430_8535128.jpg",
       "/images/women/1712046369_8599348.jpg",
@@ -2522,6 +2646,7 @@
     "id": 125,
     "name": "Leggings - Friends",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1712819302_3907784.jpg",
       "/images/women/1715752776_5661779.jpg",
@@ -2541,6 +2666,7 @@
     "id": 126,
     "name": "Jumpsuits - Twilight",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1712998451_5398149.jpg",
       "/images/women/1715242639_1244554.jpg",
@@ -2563,6 +2689,7 @@
     "id": 127,
     "name": "Leggings - Lady Gaga",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1717417192_1537005.jpg",
       "/images/women/1699264341_8355034.jpg",
@@ -2585,6 +2712,7 @@
     "id": 128,
     "name": "Jeans - The Kardashians",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1725010889_4512395.jpg",
       "/images/women/1713159633_4572561.jpg",
@@ -2603,6 +2731,7 @@
     "id": 129,
     "name": "Formal Shirts - The Crown",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1720422802_7891583.jpg",
       "/images/women/1719907567_1931601.jpg",
@@ -2625,6 +2754,7 @@
     "id": 130,
     "name": "Sweaters - RuPaul's Drag Race",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1719308727_7019931.jpg",
       "/images/women/1713853525_3760003.jpg",
@@ -2645,6 +2775,7 @@
     "id": 131,
     "name": "Dresses - The Crown",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714387153_4069734.jpg",
       "/images/women/1702620042_3215556.jpg",
@@ -2666,6 +2797,7 @@
     "id": 132,
     "name": "Leggings - Barbie",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1721124050_5243212.jpg",
       "/images/women/1722613168_2791372.jpg",
@@ -2688,6 +2820,7 @@
     "id": 133,
     "name": "Shorts - Maleficent",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1719569450_2284370.jpg",
       "/images/women/1703952962_5299324.jpg",
@@ -2708,6 +2841,7 @@
     "id": 134,
     "name": "Formal Shirts - America's Next Top Model",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1713514547_6283475.jpg",
       "/images/women/1714201543_9962520.jpg"
@@ -2727,6 +2861,7 @@
     "id": 135,
     "name": "Leggings - Frozen",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1716791099_4810306.jpg",
       "/images/women/1706549647_1750271.jpg",
@@ -2745,6 +2880,7 @@
     "id": 136,
     "name": "Tops - Lady Gaga",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714656819_2545961.jpg",
       "/images/women/1712639448_7882940.jpg",
@@ -2766,6 +2902,7 @@
     "id": 137,
     "name": "Jackets - The Bold Type",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1713525508_6426850.jpg",
       "/images/women/1722610914_3627952.jpg"
@@ -2783,6 +2920,7 @@
     "id": 138,
     "name": "Dresses - High School Musical",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1717502301_1807327.jpg",
       "/images/women/1714121722_1370447.jpg",
@@ -2805,6 +2943,7 @@
     "id": 139,
     "name": "Dresses - Taylor Swift",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1721898320_8239939.jpg",
       "/images/women/1714716631_4594080.jpg",
@@ -2827,6 +2966,7 @@
     "id": 140,
     "name": "Jumpsuits - Emily in Paris",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1717588633_7268666.jpg",
       "/images/women/1703921848_3946034.jpg",
@@ -2849,6 +2989,7 @@
     "id": 141,
     "name": "Shorts - Barbie",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1689146424_7520044.jpg",
       "/images/women/1705657419_3377976.jpg",
@@ -2873,6 +3014,7 @@
     "id": 142,
     "name": "Jumpsuits - Friends",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1721985309_7512335.jpg",
       "/images/women/1715671923_6581696.jpg",
@@ -2896,6 +3038,7 @@
     "id": 143,
     "name": "Shorts - Barbie",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1715690280_6640722.jpg",
       "/images/women/1725010770_5775005.jpg",
@@ -2914,6 +3057,7 @@
     "id": 144,
     "name": "Jackets - Hannah Montana",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1720523902_9819627.jpg",
       "/images/women/1712322395_7302053.jpg",
@@ -2937,6 +3081,7 @@
     "id": 145,
     "name": "Jackets - Gossip Girl",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1711784623_7459572.jpg",
       "/images/women/1715875397_1925390.jpg",
@@ -2960,6 +3105,7 @@
     "id": 146,
     "name": "Blazers - The Princess Diaries",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1705657502_1015194.jpg",
       "/images/women/1697872777_2539065.jpg",
@@ -2980,6 +3126,7 @@
     "id": 147,
     "name": "Cardigans - Gossip Girl",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1723790458_3103794.jpg",
       "/images/women/1692439790_2490537.jpg",
@@ -3001,6 +3148,7 @@
     "id": 148,
     "name": "Jeans - The Hunger Games",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1712062462_6346287.jpg",
       "/images/women/1716790646_6697751.jpg",
@@ -3023,6 +3171,7 @@
     "id": 149,
     "name": "Coats - Lizzo",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1715690199_2468917.jpg",
       "/images/women/1714721070_1669083.jpg",
@@ -3044,6 +3193,7 @@
     "id": 150,
     "name": "Sweaters - Billie Eilish",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1723131145_8047724.jpg",
       "/images/women/1720167662_8761150.jpg",
@@ -3065,6 +3215,7 @@
     "id": 151,
     "name": "Blouses - Friends",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1713182365_7839565.jpg",
       "/images/women/1709554787_8694124.jpg",
@@ -3088,6 +3239,7 @@
     "id": 152,
     "name": "Jackets - Taylor Swift",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714121722_1313795.jpg",
       "/images/women/1712322395_1486524.jpg",
@@ -3108,6 +3260,7 @@
     "id": 153,
     "name": "Tops - Emily in Paris",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1717675525_1500126.jpg",
       "/images/women/1720848691_8667466.jpg",
@@ -3128,6 +3281,7 @@
     "id": 154,
     "name": "Cardigans - Blackpink",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1718610504_9640240.jpg",
       "/images/women/1716965459_6908595.jpg",
@@ -3151,6 +3305,7 @@
     "id": 155,
     "name": "Jeans - Ariana Grande",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1715666310_2746640.jpg",
       "/images/women/1718377362_4477851.jpg",
@@ -3175,6 +3330,7 @@
     "id": 156,
     "name": "Skirts - The Kardashians",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1710484570_8947994.jpg",
       "/images/women/1715060956_9888720.jpg",
@@ -3197,6 +3353,7 @@
     "id": 157,
     "name": "Sweaters - The Bold Type",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1708754466_9905767.jpg",
       "/images/women/1700135758_6092636.jpg",
@@ -3219,6 +3376,7 @@
     "id": 158,
     "name": "Skirts - RuPaul's Drag Race",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1723456921_5422601.jpg",
       "/images/women/1712060963_1339904.jpg",
@@ -3242,6 +3400,7 @@
     "id": 159,
     "name": "Formal Shirts - RuPaul's Drag Race",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1702620567_8427507.jpg",
       "/images/women/1717158272_1810953.jpg"
@@ -3261,6 +3420,7 @@
     "id": 160,
     "name": "Coats - Jennifer Lopez",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1711787787_4678686.jpg",
       "/images/women/1719563699_6620044.jpg",
@@ -3284,6 +3444,7 @@
     "id": 161,
     "name": "Blazers - Riverdale",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1717241858_8416003.jpg",
       "/images/women/1720158635_8646283.jpg",
@@ -3305,6 +3466,7 @@
     "id": 162,
     "name": "Sweaters - Euphoria",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1704434063_6958183.jpg",
       "/images/women/1719646893_7604644.jpg",
@@ -3326,6 +3488,7 @@
     "id": 163,
     "name": "Skirts - Legally Blonde",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714460586_4348907.jpg",
       "/images/women/1714111145_8333989.jpg",
@@ -3349,6 +3512,7 @@
     "id": 164,
     "name": "Skirts - Bridgerton",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1719293955_4910815.jpg",
       "/images/women/1717172501_4968689.jpg",
@@ -3371,6 +3535,7 @@
     "id": 165,
     "name": "Jackets - Euphoria",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1709882167_3511105.jpg",
       "/images/women/1670061233_9967213.jpg",
@@ -3391,6 +3556,7 @@
     "id": 166,
     "name": "Cardigans - Rihanna",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1713528295_9218760.jpg",
       "/images/women/1713855833_9523462.jpg",
@@ -3414,6 +3580,7 @@
     "id": 167,
     "name": "Blazers - Jennifer Lopez",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1703231729_7699934.jpg",
       "/images/women/1713866586_7332161.jpg"
@@ -3431,6 +3598,7 @@
     "id": 168,
     "name": "Blazers - Grease",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1720084314_9931499.jpg",
       "/images/women/1710399991_7744198.jpg",
@@ -3451,6 +3619,7 @@
     "id": 169,
     "name": "Blouses - Lady Gaga",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1725011412_9968811.jpg",
       "/images/women/1715925333_1964021.jpg",
@@ -3471,6 +3640,7 @@
     "id": 170,
     "name": "Shorts - Gilmore Girls",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1712047491_6134328.jpg",
       "/images/women/1713798172_9539681.jpg"
@@ -3488,6 +3658,7 @@
     "id": 171,
     "name": "Blazers - Legally Blonde",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1712922820_3242018.jpg",
       "/images/women/1713539131_2848653.jpg",
@@ -3510,6 +3681,7 @@
     "id": 172,
     "name": "Sweaters - Pretty Little Liars",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1720614204_5629099.jpg",
       "/images/women/1712575702_5320465.jpg",
@@ -3532,6 +3704,7 @@
     "id": 173,
     "name": "Dresses - Grease",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1707591559_8795268.jpg",
       "/images/women/1720675831_6123566.jpg",
@@ -3554,6 +3727,7 @@
     "id": 174,
     "name": "Sweaters - Zendaya",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1721494540_6010291.jpg",
       "/images/women/1675317152_8550135.jpg",
@@ -3572,6 +3746,7 @@
     "id": 175,
     "name": "Tops - Legally Blonde",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714974595_7178533.jpg",
       "/images/women/1715925409_4235678.jpg",
@@ -3591,6 +3766,7 @@
     "id": 176,
     "name": "Sweaters - Riverdale",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1700292304_2783345.jpg",
       "/images/women/1724753140_2728615.jpg"
@@ -3608,6 +3784,7 @@
     "id": 177,
     "name": "Shorts - High School Musical",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1713507434_3898648.jpg",
       "/images/women/1713007969_9697339.jpg",
@@ -3629,6 +3806,7 @@
     "id": 178,
     "name": "Skirts - Blackpink",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1711545185_6862762.jpg",
       "/images/women/1705294678_3161470.jpg",
@@ -3650,6 +3828,7 @@
     "id": 179,
     "name": "Blazers - Sex and the City",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1722956389_9933309.jpg",
       "/images/women/1718178917_1298524.jpg",
@@ -3675,6 +3854,7 @@
     "id": 180,
     "name": "Dresses - Beauty and the Beast",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1707551813_2245929.jpg",
       "/images/women/1705752474_9752514.jpg",
@@ -3693,6 +3873,7 @@
     "id": 181,
     "name": "Jackets - Riverdale",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1716790260_5583283.jpg",
       "/images/women/1709352054_3510351.jpg",
@@ -3714,6 +3895,7 @@
     "id": 182,
     "name": "Leggings - Billie Eilish",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714387225_7265796.jpg",
       "/images/women/1696916611_5549327.jpg",
@@ -3735,6 +3917,7 @@
     "id": 183,
     "name": "Blouses - Rihanna",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714642983_8023446.jpg",
       "/images/women/1707730622_7074118.jpg",
@@ -3759,6 +3942,7 @@
     "id": 184,
     "name": "Jeans - Emily in Paris",
     "price": 799,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1721898320_5088859.jpg",
       "/images/women/1700893521_4421008.jpg",
@@ -3780,6 +3964,7 @@
     "id": 185,
     "name": "Blazers - Riverdale",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1725011465_4982443.jpg",
       "/images/women/1713161152_7569503.jpg",
@@ -3803,6 +3988,7 @@
     "id": 186,
     "name": "Cardigans - Friends",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1723118029_4895242.jpg",
       "/images/women/1715752667_8875085.jpg"
@@ -3822,6 +4008,7 @@
     "id": 187,
     "name": "Tops - Grease",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1703138407_7453767.jpg",
       "/images/women/1713962817_3087427.jpg"
@@ -3841,6 +4028,7 @@
     "id": 188,
     "name": "Blazers - Beyoncé",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1720083496_9965361.jpg",
       "/images/women/1717158678_6149813.jpg",
@@ -3859,6 +4047,7 @@
     "id": 189,
     "name": "Tops - Billie Eilish",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1691038940_5926493.jpg",
       "/images/women/1720522571_6264450.jpg",
@@ -3882,6 +4071,7 @@
     "id": 190,
     "name": "Leggings - Cinderella",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1716293967_5482718.jpg",
       "/images/women/1713003623_4178735.jpg",
@@ -3905,6 +4095,7 @@
     "id": 191,
     "name": "Formal Shirts - Legally Blonde",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1718792247_4369112.jpg",
       "/images/women/1717482864_9923878.jpg",
@@ -3928,6 +4119,7 @@
     "id": 192,
     "name": "Shorts - Cinderella",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1711788693_8833274.jpg",
       "/images/women/1702641073_8683469.jpg",
@@ -3953,6 +4145,7 @@
     "id": 193,
     "name": "Skirts - America's Next Top Model",
     "price": 2999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1721907823_7969315.jpg",
       "/images/women/1710520036_5153906.jpg",
@@ -3974,6 +4167,7 @@
     "id": 194,
     "name": "Jeans - Blackpink",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1722525147_2354431.jpg",
       "/images/women/1715582788_6531029.jpg",
@@ -3997,6 +4191,7 @@
     "id": 195,
     "name": "Leggings - Euphoria",
     "price": 1899,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1713267582_7012455.jpg",
       "/images/women/1716976573_9352381.jpg",
@@ -4015,6 +4210,7 @@
     "id": 196,
     "name": "Leggings - Taylor Swift",
     "price": 999,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1713860436_8243705.jpg",
       "/images/women/1714136535_6635598.jpg",
@@ -4038,6 +4234,7 @@
     "id": 197,
     "name": "Cardigans - Ariana Grande",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1701409584_7856164.jpg",
       "/images/women/1714387430_7155965.jpg",
@@ -4059,6 +4256,7 @@
     "id": 198,
     "name": "Sweaters - High School Musical",
     "price": 1299,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1712059233_6189053.jpg",
       "/images/women/1709617800_6881842.jpg",
@@ -4077,6 +4275,7 @@
     "id": 199,
     "name": "Skirts - Gossip Girl",
     "price": 1899,
+    "promotions": ["DIS20"],
     "imageUrls": [
       "/images/women/1702626620_8046319.jpg",
       "/images/women/1718090262_2656214.jpg",
@@ -4095,6 +4294,7 @@
     "id": 200,
     "name": "Jackets - Frozen",
     "price": 599,
+    "promotions":  ["DIS20"],
     "imageUrls": [
       "/images/women/1714666892_5481233.jpg",
       "/images/women/1692686335_8253370.jpg",
