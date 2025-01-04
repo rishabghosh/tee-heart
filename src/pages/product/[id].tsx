@@ -1,11 +1,11 @@
-import { GetStaticPaths, GetStaticProps } from 'next';
-import { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { addToCart } from '@/store/slices/cartSlice';
+import {GetStaticPaths, GetStaticProps} from 'next';
+import {useState} from 'react';
+import {useDispatch} from 'react-redux';
+import {addToCart} from '@/store/slices/cartSlice';
 import styles from '@/styles/ProductDetails.module.scss';
 import productsData from '@/data/products.json';
-import { ProductExtended } from "@/models/ProductExtended";
-import { convertToCartProduct } from "@/utils/CartItemPropConverter";
+import {ProductExtended} from "@/models/ProductExtended";
+import {convertToCartProduct} from "@/utils/CartItemPropConverter";
 import ImageGallery from '@/components/shared/ImageGallery';
 import ProductInfo from '@/components/shared/ProductInfo';
 import SizeSelector from '@/components/shared/SizeSelector';
@@ -13,17 +13,21 @@ import QuantitySelector from '@/components/shared/QuantitySelector';
 import ButtonsSection from '@/components/shared/ButtonsSection';
 import DeliveryDetails from '@/components/shared/DeliveryDetails';
 import AboutProductSection from '@/components/AboutProductSection';
+import {initializeProductExtended} from "@/utils/initializers";
 
 interface ProductDetailsProps {
     product: ProductExtended;
 }
 
-const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
+const ProductDetails: React.FC<ProductDetailsProps> = ({product}) => {
     const dispatch = useDispatch();
     const [selectedSize, setSelectedSize] = useState<string | null>(null);
     const [quantity, setQuantity] = useState(1);
     const [pincode, setPincode] = useState('');
     const [wishlistDisabled] = useState(true);
+
+    const productExtended = initializeProductExtended(product);
+    const {name, price, imageUrls, category, sizes, sellingPrice} = productExtended;
 
     const handleAddToCart = () => {
         if (selectedSize) {
@@ -36,14 +40,16 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
 
     return (
         <div className={styles.productPage}>
-            <ImageGallery imageUrls={product.imageUrls} name={product.name} />
+            <ImageGallery imageUrls={imageUrls} name={name}/>
             <div className={styles.detailsSection}>
-                <ProductInfo name={product.name} price={product.price} description={product.description} />
-                <SizeSelector sizes={product.sizes} selectedSize={selectedSize} onSelectSize={setSelectedSize} />
-                <QuantitySelector quantity={quantity} setQuantity={setQuantity} />
-                <ButtonsSection handleAddToCart={handleAddToCart} wishlistDisabled={wishlistDisabled} />
-                <DeliveryDetails pincode={pincode} setPincode={setPincode} />
-                <AboutProductSection product={product} />
+                <div className={styles.purchaseSection}>
+                    <ProductInfo name={name} price={price} category={category} sellingPrice={sellingPrice}/>
+                    <SizeSelector sizes={sizes} selectedSize={selectedSize} onSelectSize={setSelectedSize}/>
+                    <QuantitySelector quantity={quantity} setQuantity={setQuantity}/>
+                    <ButtonsSection handleAddToCart={handleAddToCart} wishlistDisabled={wishlistDisabled}/>
+                    <DeliveryDetails pincode={pincode} setPincode={setPincode}/>
+                </div>
+                <AboutProductSection product={product}/>
             </div>
         </div>
     );
@@ -51,7 +57,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = productsData.map((product) => ({
-        params: { id: product.id.toString() },
+        params: {id: product.id.toString()},
     }));
 
     return {
@@ -61,7 +67,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-    const { id } = context.params!;
+    const {id} = context.params!;
     const product = productsData.find((p) => p.id === parseInt(id as string));
 
     return {

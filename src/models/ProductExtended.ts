@@ -1,5 +1,5 @@
 import {Product} from "@/models/Product";
-import {sellingPriceCalculator} from "@/utils/SellingPriceCalculator";
+import {sellingPriceCalculator} from "@/utils/calculators";
 
 export class ProductExtended implements Product {
     id: number;
@@ -21,14 +21,17 @@ export class ProductExtended implements Product {
     customerCareNumber: string = "1-800-123-4567";
     email: string = "support@mockedemail.com";
 
-    constructor(id: number,
-                name: string,
-                price: number,
-                promotions: string[],
-                imageUrls: string[],
-                category: string,
-                customer: string,
-                theme: string, sizes: string[]) {
+    constructor(
+        id: number,
+        name: string,
+        price: number,
+        promotions: string[],
+        imageUrls: string[],
+        category: string,
+        customer: string,
+        theme: string,
+        sizes: string[]
+    ) {
         this.id = id;
         this.name = name;
         this.price = price;
