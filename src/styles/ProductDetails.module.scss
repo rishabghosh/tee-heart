@@ -40,8 +40,7 @@ $product-disabled-color: #aaa;
   max-width: 500px;
 
   .productTitle {
-    font-size: 2rem;
-    //margin-bottom: 10px;
+    font-size: 1.8rem;
     margin: 0;
     font-weight: bold;
   }
@@ -53,7 +52,7 @@ $product-disabled-color: #aaa;
   }
 
   .productPrice {
-    font-size: 18px;
+    font-size: 22px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -81,11 +80,11 @@ $product-disabled-color: #aaa;
   }
 }
 
-.productPrice {
-  font-size: 1.5rem;
-  color: #ff5733;
-  margin-bottom: 15px;
-}
+//.productPrice {
+//  font-size: 1.5rem;
+//  color: #ff5733;
+//  margin-bottom: 15px;
+//}
 
 .productDescription {
   font-size: 1rem;

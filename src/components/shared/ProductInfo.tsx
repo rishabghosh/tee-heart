@@ -17,14 +17,14 @@ const ProductInfo: React.FC<ProductInfoProps> = ({name, price, category, selling
                 {price !== sellingPrice ? (
                     <>
                         <p className={styles.currentPrice}>
-                            ₹&thinsp;{sellingPrice}&nbsp;&nbsp;
+                            <span>₹&thinsp;{sellingPrice}&nbsp;&nbsp;</span>
                             <span className={styles.originalPrice}>₹&thinsp;{price}</span>
                             <span
                                 className={styles.discount}>&nbsp;&nbsp;({calculateDiscountPercentage(price, sellingPrice)}% OFF)</span>
                         </p>
                     </>
                 ) : (
-                    <p className={styles.price}>₹ {price}</p>
+                    <p className={styles.currentPrice}>₹&thinsp;{price}</p>
                 )}
             </div>
             <p className={styles.priceInfo}>Inclusive of all taxes</p>
