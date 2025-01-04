@@ -14,6 +14,7 @@ import ButtonsSection from '@/components/shared/ButtonsSection';
 import DeliveryDetails from '@/components/shared/DeliveryDetails';
 import AboutProductSection from '@/components/AboutProductSection';
 import {initializeProductExtended} from "@/utils/initializers";
+import PurchaseDetails from "@/components/PurchaseDetails";
 
 interface ProductDetailsProps {
     product: ProductExtended;
@@ -42,6 +43,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({product}) => {
         <div className={styles.productPage}>
             <ImageGallery imageUrls={imageUrls} name={name}/>
             <div className={styles.detailsSection}>
+                {/*<PurchaseDetails product={product} handleAddToCart={handleAddToCart} />*/}
                 <div className={styles.purchaseSection}>
                     <ProductInfo name={name} price={price} category={category} sellingPrice={sellingPrice}/>
                     <SizeSelector sizes={sizes} selectedSize={selectedSize} onSelectSize={setSelectedSize}/>
