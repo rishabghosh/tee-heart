@@ -1,4 +1,4 @@
-import styles from '@/styles/ProductDetails.module.scss';
+import styles from '@/styles/allInOnePurchaseDetails.module.scss';
 
 interface ButtonsSectionProps {
     handleAddToCart: () => void;
@@ -7,12 +7,8 @@ interface ButtonsSectionProps {
 
 const ButtonsSection: React.FC<ButtonsSectionProps> = ({ handleAddToCart, wishlistDisabled }) => (
     <div className={styles.buttonsSection}>
-        <button className={styles.addToCartButton} onClick={handleAddToCart}>
-            Add to Cart
-        </button>
-        <button className={styles.addToWishlistButton} disabled={wishlistDisabled}>
-            Add to Wishlist
-        </button>
+        <button className={styles.addToCartButton} onClick={handleAddToCart}>Add to Cart</button>
+        <button className={styles.addToWishlistButton} disabled={wishlistDisabled}>Add to Wishlist</button>
     </div>
 );
 

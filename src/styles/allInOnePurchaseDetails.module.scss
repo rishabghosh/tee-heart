@@ -61,6 +61,11 @@
   margin-bottom: 0px
 }
 
+.deliveryHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
 .sizeOptions {
   display: flex;
   gap: 10px;
