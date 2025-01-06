@@ -14,7 +14,6 @@ import ButtonsSection from '@/components/shared/ButtonsSection';
 import DeliveryDetails from '@/components/shared/DeliveryDetails';
 import AboutProductSection from '@/components/AboutProductSection';
 import {initializeProductExtended} from "@/utils/initializers";
-import PurchaseDetails from "@/components/PurchaseDetails";
 
 interface ProductDetailsProps {
     product: ProductExtended;
