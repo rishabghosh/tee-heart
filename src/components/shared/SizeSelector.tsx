@@ -1,4 +1,4 @@
-import styles from '@/styles/ProductDetails.module.scss';
+import styles from '@/styles/allInOnePurchaseDetails.module.scss';
 import React from "react";
 
 interface SizeSelectorProps {
@@ -7,19 +7,24 @@ interface SizeSelectorProps {
     onSelectSize: (size: string) => void;
 }
 
-const SizeSelector: React.FC<SizeSelectorProps> = ({ sizes, selectedSize, onSelectSize }) => (
-    <div className={styles.sizeSelector}>
-        <h4>Select Size:</h4>
-        <div className={styles.sizeOptions}>
-            {sizes.map(size => (
-                <button
-                    key={size}
-                    className={`${styles.sizeButton} ${selectedSize === size ? styles.selectedSizeButton : ''}`}
-                    onClick={() => onSelectSize(size)}
-                >{size}</button>
-            ))}
+const SizeSelector: React.FC<SizeSelectorProps> = ({ sizes, selectedSize, onSelectSize }) => {
+
+    return (
+        <div className={styles.sizeSelector}>
+            <h4>Select Size:</h4>
+            <div className={styles.sizeOptions}>
+                {sizes.map(size => (
+                    <button
+                        key={size}
+                        className={`${styles.sizeButton} ${selectedSize === size ? styles.active : ''}`}
+                        onClick={() => onSelectSize(size)}
+                    >
+                        {size}
+                    </button>
+                ))}
+            </div>
         </div>
-    </div>
-);
+    );
+}
 
 export default SizeSelector;
