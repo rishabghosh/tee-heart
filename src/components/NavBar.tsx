@@ -9,7 +9,7 @@ const NavBar: React.FC = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
-                <Link href="/">Tee-Heart</Link>
+                <Link href="/">Tee Jutsu</Link>
             </div>
             <ul className={styles.navLinks}>
                 <li>

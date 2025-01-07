@@ -5,7 +5,7 @@ const Home: React.FC = () => {
     return (
         <div>
             <main className={styles.main}>
-                <h1 className={styles.title}>Welcome to Tee-Heart</h1>
+                <h1 className={styles.title}>Welcome to Tee Jutsu</h1>
                 <p className={styles.description}>
                     Your one-stop shop for trendy and comfortable apparel.
                 </p>

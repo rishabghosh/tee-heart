@@ -50,7 +50,7 @@ const MobileNavBar: React.FC = () => {
                     &#9776; {/* Triple vertical dash */}
                 </button>
                 <div className={styles.logo}>
-                    <Link href="/">Tee-Heart</Link>
+                    <Link href="/">Tee Jutsu</Link>
                 </div>
                 <div className={styles.cart}>
                     <Link href="/cart">Cart ({cartItems.length})</Link>
