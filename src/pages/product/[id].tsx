@@ -1,5 +1,5 @@
 import {GetStaticPaths, GetStaticProps} from 'next';
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import {useDispatch} from 'react-redux';
 import {addToCart} from '@/store/slices/cartSlice';
 import styles from '@/styles/ProductDetails.module.scss';
@@ -14,6 +14,7 @@ import ButtonsSection from '@/components/shared/ButtonsSection';
 import DeliveryDetails from '@/components/shared/DeliveryDetails';
 import AboutProductSection from '@/components/AboutProductSection';
 import {initializeProductExtended} from "@/utils/initializers";
+import ProductDetailsMobile from "@/components/ProductDetailsMobile";
 
 interface ProductDetailsProps {
     product: ProductExtended;
@@ -37,6 +38,30 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({product}) => {
             alert('Please select a size');
         }
     };
+
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        // Function to check screen size
+        const checkScreenSize = () => {
+            setIsMobile(window.innerWidth <= 768); // Mobile resolution threshold
+        };
+
+        // Initial check
+        checkScreenSize();
+
+        // Add event listener for window resize
+        window.addEventListener("resize", checkScreenSize);
+
+        // Cleanup event listener on component unmount
+        return () => {
+            window.removeEventListener("resize", checkScreenSize);
+        };
+    }, []);
+
+    if (isMobile){
+        return <ProductDetailsMobile />
+    }
 
     return (
         <div className={styles.productPage}>

@@ -1,0 +1,152 @@
+.productDetailsMobile {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+
+    .backButton {
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .navIcons {
+      display: flex;
+      gap: 15px;
+
+      button {
+        font-size: 20px;
+        cursor: pointer;
+        background: none;
+        border: none;
+      }
+    }
+  }
+
+  .mainContent {
+    background-color: white;
+    padding: 15px;
+
+    .productImage {
+      display: flex;
+      justify-content: center;
+
+      .image {
+        border-radius: 5px;
+      }
+    }
+
+    .details {
+      margin-top: 15px;
+
+      h2 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .price {
+        font-size: 20px;
+        color: #e63946;
+        margin-top: 5px;
+
+        .mrp {
+          text-decoration: line-through;
+          color: #999;
+          margin-left: 10px;
+        }
+
+        .discount {
+          color: #28a745;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .deliveryInfo {
+      margin-top: 15px;
+      padding: 15px;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+      h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .pinChecker {
+        display: flex;
+        margin-bottom: 10px;
+
+        .pinInput {
+          flex: 1;
+          padding: 8px;
+          border: 1px solid #ddd;
+          border-radius: 5px 0 0 5px;
+        }
+
+        .checkButton {
+          padding: 8px 15px;
+          border: none;
+          background-color: #e63946;
+          color: white;
+          border-radius: 0 5px 5px 0;
+          cursor: pointer;
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+          font-size: 14px;
+          color: #555;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  .actionButtons {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+
+    button {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &.wishlistButton {
+        background-color: white;
+        color: #e63946;
+        border: 1px solid #e63946;
+        margin-right: 5px;
+      }
+
+      &.addToBagButton {
+        background-color: #e63946;
+        color: white;
+        margin-left: 5px;
+      }
+    }
+  }
+}
