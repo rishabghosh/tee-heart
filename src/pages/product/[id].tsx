@@ -42,9 +42,17 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({product}) => {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-        // Function to check screen size
+        // Function to check screen size and aspect ratio
         const checkScreenSize = () => {
-            setIsMobile(window.innerWidth <= 768); // Mobile resolution threshold
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            const aspectRatio = height / width;
+
+            // Check if the screen width is <= 768px or if the aspect ratio is greater than a threshold (e.g., portrait mode)
+            const isMobileScreen = width <= 768 || aspectRatio > 1.5;
+
+            console.log("check screenSize is called, screen size is", width, "aspect ratio is", aspectRatio);
+            setIsMobile(isMobileScreen); // Set state based on screen size and aspect ratio
         };
 
         // Initial check
