@@ -1,0 +1,28 @@
+$product-primary-color: #ff5733;
+$product-secondary-color: #333;
+$product-accent-color: #999;
+$product-bg-color: #fff;
+$product-border-color: #ddd;
+$product-disabled-color: #aaa;
+.productPrice {
+  font-size: 22px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+
+  .currentPrice {
+    display: flex;
+    font-weight: bold;
+    color: $product-primary-color;
+  }
+
+  .originalPrice {
+    text-decoration: line-through;
+    color: $product-accent-color;
+  }
+
+  .discount {
+    color: $product-primary-color;
+  }
+}

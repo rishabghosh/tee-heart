@@ -1,6 +1,6 @@
 import styles from '@/styles/ProductDetails.module.scss';
 import React from "react";
-import {calculateDiscountPercentage} from "@/utils/calculators";
+import PriceDisplay from "@/components/shared/PriceDisplay";
 
 interface ProductInfoProps {
     name: string;
@@ -14,18 +14,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({name, price, category, selling
         <h1 className={styles.productTitle}>{name}</h1>
         <p className={styles.productSubtitle}>{category}</p>
             <div className={styles.productPrice}>
-                {price !== sellingPrice ? (
-                    <>
-                        <p className={styles.currentPrice}>
-                            <span>₹&thinsp;{sellingPrice}&nbsp;&nbsp;</span>
-                            <span className={styles.originalPrice}>₹&thinsp;{price}</span>
-                            <span
-                                className={styles.discount}>&nbsp;&nbsp;({calculateDiscountPercentage(price, sellingPrice)}% OFF)</span>
-                        </p>
-                    </>
-                ) : (
-                    <p className={styles.currentPrice}>₹&thinsp;{price}</p>
-                )}
+                <PriceDisplay price={price} sellingPrice={sellingPrice}/>
             </div>
             <p className={styles.priceInfo}>Inclusive of all taxes</p>
     </div>

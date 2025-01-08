@@ -51,28 +51,6 @@ $product-disabled-color: #aaa;
     margin: 5px 0 15px;
   }
 
-  .productPrice {
-    font-size: 22px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-bottom: 5px;
-
-    .currentPrice {
-      font-weight: bold;
-      color: $product-primary-color;
-    }
-
-    .originalPrice {
-      text-decoration: line-through;
-      color: $product-accent-color;
-    }
-
-    .discount {
-      color: $product-primary-color;
-    }
-  }
-
   .priceInfo {
     font-size: 12px;
     color: $product-accent-color;

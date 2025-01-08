@@ -71,7 +71,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({product}) => {
             onSelectSize={setSelectedSize}
             handleAddToCart={handleAddToCart}
             wishlistDisabled={wishlistDisabled}
-            product={product}
+            pincode={pincode}
+            setPincode={setPincode}
         />
     }
 
