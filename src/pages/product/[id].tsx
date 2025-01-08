@@ -60,14 +60,25 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({product}) => {
     }, []);
 
     if (isMobile){
-        return <ProductDetailsMobile />
+        return <ProductDetailsMobile
+            imageUrls={imageUrls}
+            name={name}
+            price={price}
+            category={category}
+            sellingPrice={sellingPrice}
+            sizes={sizes}
+            selectedSize={selectedSize}
+            onSelectSize={setSelectedSize}
+            handleAddToCart={handleAddToCart}
+            wishlistDisabled={wishlistDisabled}
+            product={product}
+        />
     }
 
     return (
         <div className={styles.productPage}>
             <ImageGallery imageUrls={imageUrls} name={name}/>
             <div className={styles.detailsSection}>
-                {/*<PurchaseDetails product={product} handleAddToCart={handleAddToCart} />*/}
                 <div className={styles.purchaseSection}>
                     <ProductInfo name={name} price={price} category={category} sellingPrice={sellingPrice}/>
                     <SizeSelector sizes={sizes} selectedSize={selectedSize} onSelectSize={setSelectedSize}/>
