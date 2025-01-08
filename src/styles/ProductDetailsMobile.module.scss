@@ -38,13 +38,15 @@
   .mainContent {
     background-color: white;
     padding: 15px;
-    flex-grow: 1; // Makes this section fill the remaining space between the header and footer
+    flex-grow: 1;
 
     .productImage {
       display: flex;
       justify-content: center;
 
-      .image {
+      img {
+        max-width: 100%;
+        height: auto;
         border-radius: 5px;
       }
     }
@@ -53,8 +55,9 @@
       margin-top: 15px;
 
       h2 {
-        font-size: 18px;
+        font-size: 16px; // Adjusted for smaller screens
         font-weight: 600;
+        margin-bottom: 5px;
       }
 
       span {
@@ -65,9 +68,9 @@
       }
 
       .price {
-        font-size: 20px;
+        font-size: 18px; // Adjusted size
         color: #e63946;
-        margin-top: 5px;
+        margin-top: 10px;
 
         .mrp {
           text-decoration: line-through;
@@ -84,13 +87,13 @@
 
     .deliveryInfo {
       margin-top: 15px;
-      padding: 15px;
+      padding: 10px;
       background-color: white;
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
       h3 {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
         margin-bottom: 10px;
       }
@@ -130,14 +133,14 @@
   }
 
   .actionButtons {
-    //width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 10px;
     background-color: white;
     border-top: 1px solid #ddd;
-    position: sticky; // Ensures it sticks to the bottom of the screen
-    bottom: 0; // Sticks it to the viewport's bottom
+    position: fixed;
+    bottom: 0;
+    width: 100%; // Ensure it spans the full width on smaller screens
 
     button {
       flex: 1;
@@ -157,6 +160,28 @@
         background-color: #e63946;
         color: white;
         margin-left: 5px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .details {
+      h2 {
+        font-size: 14px;
+      }
+
+      span {
+        font-size: 12px;
+      }
+
+      .price {
+        font-size: 16px;
+      }
+    }
+
+    .actionButtons {
+      button {
+        font-size: 14px;
       }
     }
   }
