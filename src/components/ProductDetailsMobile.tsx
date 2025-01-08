@@ -1,5 +1,8 @@
 import Image from "next/image";
 import styles from "@/styles/ProductDetailsMobile.module.scss";
+import SizeSelector from "@/components/shared/SizeSelector";
+import DeliveryDetails from "@/components/shared/DeliveryDetails";
+import ButtonsSection from "@/components/shared/ButtonsSection";
 
 
 
@@ -17,7 +20,7 @@ const ProductDetailsMobile = ({
                                   product
                               }) => (
     <div className={styles.productDetailsMobile}>
-        <main className={styles.mainContent}>
+        <div className={styles.mainContent}>
             <div className={styles.productImage}>
                 <Image
                     src={imageUrls[0]}
@@ -35,25 +38,16 @@ const ProductDetailsMobile = ({
                     {/*<span className={styles.mrp}>₹3398</span>{" "}*/}
                     {/*<span className={styles.discount}>(70% OFF)</span>*/}
                 </p>
+
+                <SizeSelector sizes={sizes} selectedSize={selectedSize} onSelectSize={onSelectSize}/>
             </div>
 
-            <div className={styles.deliveryInfo}>
-                <h3>Check Delivery & Services</h3>
-                <div className={styles.pinChecker}>
-                    <input
-                        type="text"
-                        placeholder="Enter a PIN code"
-                        className={styles.pinInput}
-                    />
-                    <button className={styles.checkButton}>Check</button>
-                </div>
-            </div>
-        </main>
+            <DeliveryDetails product={product} />
+        </div>
 
-        <footer className={styles.actionButtons}>
-            <button className={styles.wishlistButton} disabled={wishlistDisabled}>Wishlist</button>
-            <button className={styles.addToBagButton} onClick={handleAddToCart}>Add to Bag</button>
-        </footer>
+        <div className={styles.actionButtons}>
+            <ButtonsSection handleAddToCart={handleAddToCart} wishlistDisabled={wishlistDisabled}/>
+        </div>
     </div>
 );
 
