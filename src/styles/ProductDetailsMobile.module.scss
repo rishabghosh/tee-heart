@@ -38,6 +38,7 @@
   .mainContent {
     background-color: white;
     padding: 15px;
+    flex-grow: 1; // Makes this section fill the remaining space between the header and footer
 
     .productImage {
       display: flex;
@@ -54,6 +55,13 @@
       h2 {
         font-size: 18px;
         font-weight: 600;
+      }
+
+      span {
+        font-size: 14px;
+        color: #555;
+        display: block;
+        margin-top: 5px;
       }
 
       .price {
@@ -122,11 +130,14 @@
   }
 
   .actionButtons {
+    //width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 15px;
     background-color: white;
     border-top: 1px solid #ddd;
+    position: sticky; // Ensures it sticks to the bottom of the screen
+    bottom: 0; // Sticks it to the viewport's bottom
 
     button {
       flex: 1;
