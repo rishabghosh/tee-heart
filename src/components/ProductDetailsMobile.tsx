@@ -3,6 +3,7 @@ import styles from "@/styles/ProductDetailsMobile.module.scss";
 import SizeSelector from "@/components/shared/SizeSelector";
 import DeliveryDetails from "@/components/shared/DeliveryDetails";
 import ButtonsSection from "@/components/shared/ButtonsSection";
+import ImageSlider from "@/components/ImageSlider";
 
 
 
@@ -22,13 +23,7 @@ const ProductDetailsMobile = ({
     <div className={styles.productDetailsMobile}>
         <div className={styles.mainContent}>
             <div className={styles.productImage}>
-                <Image
-                    src={imageUrls[0]}
-                    alt="Product Image"
-                    width={300}
-                    height={300}
-                    className={styles.image}
-                />
+                <ImageSlider images={imageUrls}/>
             </div>
             <div className={styles.details}>
                 <h2>{name}</h2>
